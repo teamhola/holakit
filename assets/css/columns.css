@@ -1,0 +1,14 @@
+.hola-columns {
+  columns: 3 15rem;
+  column-gap: 2rem;
+}
+
+.hola-columns.hola-card-stack {
+  columns: 3 20rem;
+  column-gap: 2rem;
+}
+.hola-columns-item {
+  display: inline-block;
+  width: 100%;
+  break-inside: avoid-column;
+}

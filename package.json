@@ -1,0 +1,29 @@
+{
+  "name": "holakit",
+  "version": "0.1.0",
+  "description": "Yet another design-driven UI component set.",
+  "main": " ",
+  "scripts": {
+    "build": "minify ./assets/holakit.css --clean",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teamhola/holakit.git"
+  },
+  "keywords": [
+    "design",
+    "hola",
+    "ui",
+    "components"
+  ],
+  "author": "laosb",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/teamhola/holakit/issues"
+  },
+  "homepage": "https://github.com/teamhola/holakit#readme",
+  "devDependencies": {
+    "minifier": "^0.8.1"
+  }
+}

@@ -1,0 +1,12 @@
+.hola-link-cta {
+  text-decoration: none;
+  line-height: 2em;
+  opacity: .6;
+  transition: .3s opacity ease;
+}
+.hola-link-cta:hover, .hola-link-cta:active {
+  opacity: .9;
+}
+.hola-link-cta::before {
+  content: '► ';
+}
