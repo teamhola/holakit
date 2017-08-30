@@ -28,7 +28,7 @@
     "minifier": "^0.8.1",
     "np": "^2.16.0"
   },
-  "publishConfig":{
+  "publishConfig": {
     "registry": "https://registry.npmjs.org"
   }
 }
