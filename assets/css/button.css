@@ -18,7 +18,8 @@
 }
 
 .hola-button.hola-button-normal {
-  background: #eee;  
+  background: #eee;
+  color: #333;
 }
 .hola-button.hola-button-primary {
   background: #3498DB;

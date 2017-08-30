@@ -4,3 +4,7 @@
   background: #444;
   color: #fff;
 }
+
+.hola-footer a{
+  color: inherit;
+}

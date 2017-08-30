@@ -1,12 +1,9 @@
-.hola-link-light {
-  color: #3498db;
-}
-
 .hola-link-cta {
   text-decoration: none;
   line-height: 2em;
   opacity: .6;
   transition: .3s opacity ease;
+  color: inherit !important;
 }
 .hola-link-cta:hover, .hola-link-cta:active {
   opacity: .9;
