@@ -2,3 +2,6 @@
   margin: 0;
   padding: 0;
 }
+.hola-html-reset *:hover, .hola-html-reset *:focus, .hola-html-reset *:active {
+  outline: 0;
+}
