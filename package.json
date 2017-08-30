@@ -6,7 +6,7 @@
   "scripts": {
     "build": "minify ./assets/holakit.css --clean",
     "prepublish": "npm run build",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Currently no test.\" && exit 0"
   },
   "repository": {
     "type": "git",
