@@ -8,6 +8,9 @@
 .hola-navbar nav {
   display: inline-block;
   line-height: 5rem;
+  overflow-x: auto;
+  white-space: nowrap;
+  max-width: 100%;
 }
 .hola-navbar nav.hola-navbar-sub {
   float: right;
