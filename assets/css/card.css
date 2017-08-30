@@ -1,3 +1,11 @@
+.hola-card-stack-title {
+  line-height: 2em;
+}
+
+.hola-card-stack-title.hola-card-stack-title-light {
+  color: #fff;
+}
+
 .hola-card {
   padding: 3rem;
   background: #fff;
