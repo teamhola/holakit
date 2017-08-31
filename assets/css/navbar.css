@@ -1,6 +1,13 @@
 .hola-navbar {
   height: 5rem;
 }
+
+.hola-navbar-white {
+  background: #fff;
+  padding-bottom: 2rem;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+}
+
 .hola-navbar-transparent {
   margin-bottom: -5rem;
 }
@@ -35,6 +42,14 @@
 .hola-navbar.hola-navbar-darkbg nav a:hover, .hola-navbar.hola-navbar-darkbg nav a:active {
   color: rgba(255, 255, 255, .9);
 }
-.hola-navbar.hola-navbar-darkbg nav .hola-navbar-brand {
+
+.hola-navbar.hola-navbar-lightbg nav a {
+  color: rgba(0, 0, 0, .6);
+}
+.hola-navbar.hola-navbar-lightbg nav a:hover, .hola-navbar.hola-navbar-lightbg nav a:active {
+  color: rgba(0, 0, 0, .9);
+}
+
+.hola-navbar nav .hola-navbar-brand {
   font-weight: bold;
 }
