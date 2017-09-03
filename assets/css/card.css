@@ -19,3 +19,8 @@
 .hola-card-title {
   margin-bottom: 2rem;
 }
+
+.hola-card.hola-card-with-image .hola-image:first-child {
+  margin: -3rem -3rem 2rem -3rem;
+  width: calc(100% + 6rem);
+}
