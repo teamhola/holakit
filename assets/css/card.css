@@ -3,7 +3,7 @@
 }
 
 .hola-card-stack-title.hola-card-stack-title-light {
-  color: #fff;
+  color: var(--hola-text-light-color);
 }
 
 .hola-card {

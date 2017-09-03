@@ -14,14 +14,14 @@
   box-shadow: 0 0 0 1.5em rgba(255, 255, 255, .5) inset;
 }
 .hola-button:focus {
-  box-shadow: 0 0 0 3px rgba(52, 152, 219, .5);
+  box-shadow: 0 0 0 3px var(--hola-focus-color);
 }
 
 .hola-button.hola-button-normal {
   background: #eee;
-  color: #333;
+  color: var(--hola-text-dark-color);
 }
 .hola-button.hola-button-primary {
-  background: #3498DB;
-  color: #fff;
+  background: var(--hola-primary-color);
+  color: var(--hola-text-light-color);
 }

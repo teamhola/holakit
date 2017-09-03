@@ -1,6 +1,6 @@
 .hola-hero {
   min-height: 45vh;
-  background: #3498db;
+  background: var(--hola-primary-color);
 }
 
 .hola-hero-height-extended {
@@ -15,5 +15,5 @@
 .hola-hero .hola-hero-content {
   font-size: 1.5rem;
   padding: 15vh 0;
-  color: #fff;
+  color: var(--hola-text-light-color);
 }

@@ -1,0 +1,7 @@
+.hola-var {
+  --hola-primary-color: #3498db;
+  --hola-text-light-color: #fff;
+  --hola-text-dark-color: #333;
+
+  --hola-focus-color: rgba(52, 152, 219, .5);
+}

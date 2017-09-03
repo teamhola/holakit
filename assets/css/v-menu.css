@@ -12,11 +12,11 @@
   padding: 0 1em;
 }
 .hola-vmenu .hola-vmenu-item a:hover, .hola-vmenu .hola-vmenu-item a:active, .hola-vmenu .hola-vmenu-item a:focus {
-  box-shadow: -5px 0 0 #3498db inset;
+  box-shadow: -5px 0 0 var(--hola-primary-color) inset;
 }
 .hola-vmenu .hola-vmenu-item .hola-vmenu-item-active {
-  background: #3498db;
-  color: #fff;
+  background: var(--hola-primary-color);
+  color: var(--hola-text-light-color);
 }
 .hola-vmenu .hola-vmenu-item:last-child {
   border-bottom: 0;

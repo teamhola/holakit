@@ -2,7 +2,7 @@
   margin-top: 3rem;
   padding: 5rem 0;
   background: #444;
-  color: #fff;
+  color: var(--hola-text-light-color);
 }
 
 .hola-footer * {
