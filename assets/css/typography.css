@@ -2,7 +2,7 @@
 
 .hola-body-typography {
   color: #333;
-  font: 16px Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
+  font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,sans-serif;
 }
 
 .hola-body-typography a {
