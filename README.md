@@ -2,6 +2,13 @@
 
 Yet another design-driven UI component set.
 
+## Priciples
+
+1. Be nice in design.
+2. Properly scoped.
+3. Easy to plug into existing projects.
+4. Be advanced.
+
 ## Usage
 
 ```html
@@ -14,6 +21,18 @@ Yet another design-driven UI component set.
 Or use CSS files in the npm package directly. You can exclude unnecessary parts of this project in `assets/holakit.css` and regenerate a build using `npm run build`. This project is using pure CSS with many edge-cutting CSS features, and doesn't do any transpilation except minifing. This means you will need to transpile using something like cssnext or auto-prefixer for better browser compatibility.
 
 This project is mostly designed for ¡Hola! usage, so the design may not be fit in your project. Pull requests are welcome though, for your or some others' case.
+
+### Advanced Usage
+
+We are using CSS variables, so you can do some customizations by changing variables. See `assets/css/var.css` for reference.
+
+Since we use a class to scope our variables, you have many choices to override our defaults.
+
+1. Make you own build and replace defaults in `var.css`.
+2. Roll your own `.hola-var` class and apply it on `<html>`.
+3. Roll a class with only the variables you changed, and add it on `<html>`, after our `hola-var`.
+
+And many other ways. Our flexible, properly-scoped architecture can make most cases cakes.
 
 ## Legal
 
