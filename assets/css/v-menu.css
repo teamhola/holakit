@@ -1,0 +1,30 @@
+.hola-vmenu {
+  list-style: none;
+}
+.hola-vmenu .hola-vmenu-item {
+  border-bottom: 1px solid #ccc;
+}
+.hola-vmenu .hola-vmenu-item a {
+  display: block;
+  text-decoration: none;
+  line-height: 3em;
+  transition: .3s all ease;
+  padding: 0 1em;
+}
+.hola-vmenu .hola-vmenu-item a:hover, .hola-vmenu .hola-vmenu-item a:active, .hola-vmenu .hola-vmenu-item a:focus {
+  box-shadow: -5px 0 0 #3498db inset;
+}
+.hola-vmenu .hola-vmenu-item .hola-vmenu-item-active {
+  background: #3498db;
+  color: #fff;
+}
+.hola-vmenu .hola-vmenu-item:last-child {
+  border-bottom: 0;
+}
+
+.hola-card .hola-vmenu {
+  margin: 0 -3rem;
+}
+.hola-card .hola-vmenu .hola-vmenu-item a {
+  padding: 0 3rem;
+}
