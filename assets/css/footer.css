@@ -5,6 +5,10 @@
   color: #fff;
 }
 
-.hola-footer a{
+.hola-footer * {
+  opacity: .8;
+}
+
+.hola-footer a {
   color: inherit;
 }
