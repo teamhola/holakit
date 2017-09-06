@@ -7,9 +7,13 @@
 }
 
 .hola-card {
-  padding: 3rem;
+  padding: 2.5rem;
   background: #fff;
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+}
+
+.hola-card p {
+  line-height: 22px;
 }
 
 .hola-card-stack .hola-card {
@@ -21,6 +25,6 @@
 }
 
 .hola-card.hola-card-with-image .hola-image:first-child {
-  margin: -3rem -3rem 2rem -3rem;
-  width: calc(100% + 6rem);
+  margin: -2.5rem -2.5rem 2rem -2.5rem;
+  width: calc(100% + 5rem);
 }
