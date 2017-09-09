@@ -1,0 +1,26 @@
+.hola-table {
+  max-width: 100%;
+}
+.hola-table.hol-table-fullwidth {
+  width: 100%;
+}
+
+.hola-table thead {
+  box-shadow: 0 -2px 0 #ccc inset;
+}
+
+.hola-table tbody tr {
+  box-shadow: 0 -1px 0 #ccc inset;
+}
+
+.hola-table th, .hola-table td {
+  line-height: 1.5;
+}
+
+.hola-table th {
+  padding: .5em;
+}
+
+.hola-table td {
+  padding: .4em .5em;
+}
