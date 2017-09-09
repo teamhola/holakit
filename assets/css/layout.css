@@ -12,6 +12,11 @@
 .hola-layout-container {
   padding: 1rem 0;
 }
+.hola-layout-container::after {
+  content: "";
+  clear: both;
+  display: table;
+}
 
 .hola-layout-container>* {
   box-sizing: border-box;
