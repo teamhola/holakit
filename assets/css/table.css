@@ -7,6 +7,7 @@
 
 .hola-table thead {
   box-shadow: 0 -2px 0 #ccc inset;
+  color: rgba(0, 0, 0, .6);
 }
 
 .hola-table tbody tr {
@@ -18,7 +19,7 @@
 }
 
 .hola-table th {
-  padding: .5em;
+  padding: .6em;
 }
 
 .hola-table td {
