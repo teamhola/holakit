@@ -8,3 +8,7 @@
 .hola-body-typography a {
   color: var(--hola-primary-color);
 }
+
+.hola-body-typography p {
+  margin-bottom: 1em;
+}
