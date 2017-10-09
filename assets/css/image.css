@@ -3,3 +3,10 @@
   width: 100%;
   margin: 2rem 0;
 }
+
+.hola-image-round {
+  border-radius: 50%;
+}
+.hola-image-radii {
+  border-radius: 5px;
+}
