@@ -1,0 +1,14 @@
+.hola-avatar {
+  display: inline-block;
+  background: var(--hola-avatar-bg);
+  margin: 0;
+}
+
+.hola-avatar-highlighted {
+  box-shadow: 0 0 0 3px var(--hola-focus-color);
+}
+
+.hola-avatar-medium {
+  height: 4.5rem;
+  width: 4.5rem;
+}
