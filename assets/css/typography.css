@@ -1,13 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Montserrat:400,700');
 
-@font-face {
-  font-family: 'HolaCJK';
-  unicode-range: U+4E00-9FCC;
-  font-style: normal;
-  font-weight: 700;
-  src: local('Lantinghei SC');
-}
-
 .hola-body-typography {
   color: var(--hola-text-dark-color);
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,"Lantinghei SC",sans-serif;
