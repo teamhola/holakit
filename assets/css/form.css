@@ -1,7 +1,12 @@
 .hola-form-ctrl {
-
+  background: #fff;
+  border-radius: 0;
+  transition: .5s;
+  padding: .44em .7em;
+  -moz-appearance: none;
+  -webkit-appearance: none;
 }
 
-.hola-form-ctrl:focus {
+.hola-button:focus, .hola-form-ctrl:focus {
   box-shadow: 0 0 0 3px var(--hola-focus-color);
 }
