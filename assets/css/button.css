@@ -13,9 +13,6 @@
 .hola-button:hover, .hola-button:active {
   box-shadow: 0 0 0 1.5em rgba(255, 255, 255, .5) inset;
 }
-.hola-button:focus {
-  box-shadow: 0 0 0 3px var(--hola-focus-color);
-}
 
 .hola-button.hola-button-normal {
   background: #eee;
