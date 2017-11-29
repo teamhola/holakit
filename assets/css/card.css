@@ -1,6 +1,10 @@
 .hola-card-stack-title {
   line-height: 2em;
 }
+.hola-card-stack-title a {
+  color: inherit;
+  text-decoration: none;
+}
 
 .hola-card-stack-title.hola-card-stack-title-light {
   color: var(--hola-text-light-color);
