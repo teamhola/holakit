@@ -1,5 +1,9 @@
 .hola-layout-scrollable-hori {
+  box-sizing: content-box;
   overflow-x: auto;
+  padding: 1rem 1rem;
   white-space: nowrap;
-  max-width: 100%;
+}
+.hola-layout-scrollable-hori>* {
+  margin-right: .7rem;
 }
