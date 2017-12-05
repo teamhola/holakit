@@ -1,0 +1,14 @@
+.hola-card.hola-card-tiny {
+  display: inline-block;
+  padding: .7rem;
+  width: 13rem;
+}
+
+.hola-card.hola-card-tiny .hola-card-title {
+  margin-bottom: .5rem;
+}
+
+.hola-card.hola-card-tiny.hola-card-with-image .hola-image:first-child {
+  margin: -.7rem -.7rem 1.2rem -.7rem;
+  width: calc(100% + 1.4rem);
+}
