@@ -1,0 +1,5 @@
+.hola-layout-scrollable-hori {
+  overflow-x: auto;
+  white-space: nowrap;
+  max-width: 100%;
+}
