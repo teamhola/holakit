@@ -10,16 +10,6 @@
   color: var(--hola-text-light-color);
 }
 
-.hola-card {
-  padding: 2.5rem;
-  background: #fff;
-  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
-}
-
-.hola-card p {
-  line-height: 22px;
-}
-
 .hola-card-stack .hola-card {
   margin-bottom: 2rem;
 }
@@ -27,13 +17,4 @@
 .hola-card-stack.hola-columns .hola-card {
   /* We're doing this this avoid our card shadow being split between columns. */
   margin: 1rem 0;
-}
-
-.hola-card-title {
-  margin-bottom: 2rem;
-}
-
-.hola-card.hola-card-with-image .hola-image:first-child {
-  margin: -2.5rem -2.5rem 2rem -2.5rem;
-  width: calc(100% + 5rem);
 }

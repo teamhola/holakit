@@ -1,0 +1,19 @@
+
+.hola-card {
+  padding: 2.5rem;
+  background: #fff;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+}
+
+.hola-card p {
+  line-height: 22px;
+}
+
+.hola-card-title {
+  margin-bottom: 2rem;
+}
+
+.hola-card.hola-card-with-image .hola-image:first-child {
+  margin: -2.5rem -2.5rem 2rem -2.5rem;
+  width: calc(100% + 5rem);
+}
