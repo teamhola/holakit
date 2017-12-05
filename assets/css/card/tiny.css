@@ -6,6 +6,7 @@
 
 .hola-card.hola-card-tiny .hola-card-title {
   margin-bottom: .5rem;
+  white-space: normal;
 }
 
 .hola-card.hola-card-tiny.hola-card-with-image .hola-image:first-child {
