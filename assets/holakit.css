@@ -1,21 +1,21 @@
-@import url('css/vendor.css');
+@import './css/vendor.css';
 
-@import url('css/reset.css');
-@import url('css/var.css');
+@import './css/reset.css';
+@import './css/var.css';
 
-@import url('css/layouts/index.css');
-@import url('css/typography.css');
-@import url('css/columns.css');
+@import './css/layouts/index.css';
+@import './css/typography.css';
+@import './css/columns.css';
 
-@import url('css/link.css');
-@import url('css/badge.css');
-@import url('css/card/index.css');
-@import url('css/image.css');
-@import url('css/navbar.css');
-@import url('css/hero.css');
-@import url('css/form.css');
-@import url('css/button.css');
-@import url('css/v-menu.css');
-@import url('css/avatar.css');
-@import url('css/table.css');
-@import url('css/footer.css');
+@import './css/link.css';
+@import './css/badge.css';
+@import './css/card/index.css';
+@import './css/image.css';
+@import './css/navbar.css';
+@import './css/hero.css';
+@import './css/form.css';
+@import './css/button.css';
+@import './css/v-menu.css';
+@import './css/avatar.css';
+@import './css/table.css';
+@import './css/footer.css';
