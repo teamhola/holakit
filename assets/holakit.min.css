@@ -1,6 +1,6 @@
 @import url(https://fonts.googleapis.com/css?family=Montserrat:400,700);
 .hola-html-reset *{margin:0;padding:0}.hola-html-reset *:hover,.hola-html-reset *:focus,.hola-html-reset *:active{outline:0}
-.hola-var{--hola-primary-color:#3498db;--hola-text-light-color:#fff;--hola-text-dark-color:#333;--hola-focus-color:rgba(52,152,219,.5);--hola-avatar-bg:rgba(255,255,255,.4)}
+.hola-var{--hola-primary-color:#3498db;--hola-text-light-color:rgba(255,255,255,.97);--hola-text-dark-color:rgba(0,0,0,.8);--hola-bg-on-dark:rgba(255,255,255,.4);--hola-focus-color:rgba(52,152,219,.5);--hola-avatar-bg:rgba(255,255,255,.4)}
 .hola-container{width:90%;max-width:1220px;margin:0 auto;box-sizing:border-box}.hola-grey-bg{background:#eee}
 .hola-layout-scrollable-hori{box-sizing:content-box;overflow-x:auto;padding:1rem 1rem;white-space:nowrap}.hola-layout-scrollable-hori>*{vertical-align:top;margin-right:.7rem}
 /* TODO: Make hola-layout-container sidebar specific. */
@@ -8,6 +8,7 @@
 .hola-body-typography{color:var(--hola-text-dark-color);font-family:Montserrat,"Helvetica Neue",Helvetica,Arial,"Lantinghei SC",sans-serif}.hola-body-typography a{color:var(--hola-primary-color)}.hola-body-typography p{margin-bottom:1em}
 .hola-columns{columns:3 15rem;column-gap:2rem}.hola-columns.hola-card-stack{columns:3 20rem;column-gap:2rem}.hola-columns-item{display:inline-block;width:100%;break-inside:avoid-column}
 .hola-link-cta{text-decoration:none;line-height:2em;opacity:.6;transition:.3s opacity ease;color:inherit!important}.hola-link-cta:hover,.hola-link-cta:active{opacity:.9}.hola-link-cta::before{content:'► '}
+.hola-badge{margin:0 5px;font-weight:bold;padding:6px;background:var(--hola-primary-color);color:var(--hola-text-light-color)}.hola-badge.hola-badge-radii{padding:6px 12px;border-radius:999em}.hola-badge-light,.hola-vmenu-item-active .hola-badge{background:var(--hola-bg-on-dark);font-weight:normal}
 .hola-card{padding:2.5rem;background:#fff;box-shadow:0 0 25px rgba(0,0,0,0.1)}.hola-card p{line-height:22px}.hola-card-title{margin-bottom:2rem}.hola-card.hola-card-with-image .hola-image:first-child{margin:-2.5rem -2.5rem 2rem -2.5rem;width:calc(100% + 5rem)}
 .hola-card.hola-card-tiny{display:inline-block;padding:.7rem;width:13rem}.hola-card.hola-card-tiny .hola-card-title{margin-bottom:.5rem;white-space:normal}.hola-card.hola-card-tiny.hola-card-with-image .hola-image:first-child{margin:-.7rem -.7rem 1.2rem -.7rem;width:calc(100% + 1.4rem)}
 .hola-card-stack-title{line-height:2em}.hola-card-stack-title a{color:inherit;text-decoration:none}.hola-card-stack-title.hola-card-stack-title-light{color:var(--hola-text-light-color)}.hola-card-stack .hola-card{margin-bottom:2rem}.hola-card-stack.hola-columns .hola-card{margin:1rem 0}
