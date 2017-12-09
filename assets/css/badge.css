@@ -1,0 +1,17 @@
+.hola-badge {
+  margin: 0 5px;
+  font-weight: bold;
+  padding: 6px;
+  background: var(--hola-primary-color);
+  color: var(--hola-text-light-color);
+}
+
+.hola-badge.hola-badge-radii {
+  padding: 6px 12px;
+  border-radius: 999em;
+}
+
+.hola-badge-light, .hola-vmenu-item-active .hola-badge {
+  background: var(--hola-bg-on-dark);
+  font-weight: normal;
+}
