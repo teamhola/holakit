@@ -26,7 +26,6 @@
   },
   "homepage": "https://github.com/teamhola/holakit#readme",
   "devDependencies": {
-    "minifier": "^0.8.1",
     "np": "^2.17.0",
     "parcel-bundler": "^1.1.0"
   },
