@@ -27,7 +27,8 @@
   "homepage": "https://github.com/teamhola/holakit#readme",
   "devDependencies": {
     "np": "^2.17.0",
-    "parcel-bundler": "^1.1.0"
+    "parcel-bundler": "^1.1.0",
+    "postcss-cssnext": "^3.0.2"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
