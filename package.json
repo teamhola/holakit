@@ -6,7 +6,6 @@
   "scripts": {
     "build": "parcel build assets/holakit.css",
     "dev": "parcel index.html -d temp",
-    "prepare": "npm run build",
     "test": "echo \"Currently no test.\" && exit 0"
   },
   "repository": {
