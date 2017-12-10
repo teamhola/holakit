@@ -2,6 +2,7 @@
   display: inline-block;
   margin: 0 5px;
   font-weight: bold;
+  line-height: 1;
   font-size: calc(1.25rem - 0.25em);
   /* ^ Hacky patch for titles, so we won't get too big badges on titles. */
   padding: 6px;
