@@ -1,6 +1,9 @@
 .hola-badge {
+  display: inline-block;
   margin: 0 5px;
   font-weight: bold;
+  font-size: calc(1.25rem - 0.25em);
+  /* ^ Hacky patch for titles, so we won't get too big badges on titles. */
   padding: 6px;
   background: var(--hola-primary-color);
   color: var(--hola-text-light-color);
