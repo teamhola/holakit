@@ -2,10 +2,18 @@
   --hola-primary-color: #3498db;
   --hola-text-light-color: rgba(255, 255, 255, .97);
   --hola-text-dark-color: rgba(0, 0, 0, .8);
-
   --hola-bg-on-dark: rgba(255, 255, 255, .4);
+  --hola-backdrop-color: rgba(0, 0, 0, .8);
 
   --hola-focus-color: rgba(52, 152, 219, .5);
 
   --hola-avatar-bg: rgba(255, 255, 255, .4);
+
+  /*
+  --hola-layout-divide: 700px;
+  */
+  /* We'll need it one day, but today CSS variables is not allowed in media queries.
+     For now we're hardcoding 700px in media queries and hope we can use variables
+     in MQ one day.
+  */
 }

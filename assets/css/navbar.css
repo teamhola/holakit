@@ -12,38 +12,38 @@
   margin-bottom: -5rem;
 }
 
-.hola-navbar nav {
+.hola-navbar nav, .hola-navbar-toggle-label {
   display: inline-block;
   line-height: 5rem;
   overflow-x: auto;
   white-space: nowrap;
   max-width: 100%;
 }
-.hola-navbar nav.hola-navbar-sub {
+.hola-navbar nav.hola-navbar-sub, .hola-navbar-toggle-label {
   float: right;
 }
 
 .hola-navbar nav a {
-  display: inline-block;  
+  display: inline-block;
   font-size: 1.2rem;
   text-decoration: none;
-  transition: .3s color ease;  
+  transition: .3s color ease;
 }
 .hola-navbar nav.hola-navbar-main a {
   padding-right: 1em;
 }
-.hola-navbar nav.hola-navbar-sub a {
+.hola-navbar nav.hola-navbar-sub a, .hola-navbar-toggle-label {
   padding-left: 1em;
 }
 
-.hola-navbar.hola-navbar-darkbg nav a {
+.hola-navbar.hola-navbar-darkbg nav a, .hola-navbar.hola-navbar-darkbg .hola-navbar-toggle-label::before {
   color: rgba(255, 255, 255, .6);
 }
 .hola-navbar.hola-navbar-darkbg nav a:hover, .hola-navbar.hola-navbar-darkbg nav a:active {
   color: rgba(255, 255, 255, .9);
 }
 
-.hola-navbar.hola-navbar-lightbg nav a {
+.hola-navbar.hola-navbar-lightbg nav a, .hola-navbar.hola-navbar-lightbg .hola-navbar-toggle-label::before {
   color: rgba(0, 0, 0, .6);
 }
 .hola-navbar.hola-navbar-lightbg nav a:hover, .hola-navbar.hola-navbar-lightbg nav a:active {
@@ -52,4 +52,50 @@
 
 .hola-navbar nav .hola-navbar-brand {
   font-weight: bold;
+}
+
+.hola-navbar-toggle {
+  position: fixed;
+  left: -9999em; /* Make sure that this toggle is available to screen readers. */
+}
+.hola-navbar-toggle-label {
+  display: none;
+}
+.hola-navbar-toggle-label::before {
+  content: "☰";
+  font-size: 2em;
+}
+
+@media (max-width: 700px) {
+  .hola-navbar-toggle-label {
+    display: inline;
+  }
+  .hola-navbar nav.hola-navbar-sub {
+    position: fixed;
+    display: block;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    padding: calc(5rem + 2rem) 2rem;
+    color: var(--hola-text-dark-color);
+    z-index: 990;
+    background: var(--hola-backdrop-color);
+    transform: scaleY(0);
+    transform-origin: top;
+    transition: .3s transform ease;
+  }
+  .hola-navbar-toggle:checked ~ .hola-navbar-toggle-label::before {
+    position: fixed;
+    content: "✕";
+    right: 1em;
+    z-index: 999;
+  }
+  .hola-navbar-toggle:checked ~ nav.hola-navbar-sub {
+    transform: scaleY(1);
+  }
+  nav.hola-navbar-sub a {
+    color: var(--hola-text-light-color);
+    display: block;
+  }
 }
