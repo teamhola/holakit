@@ -8,3 +8,9 @@
 .hola-grey-bg {
   background: #eee;
 }
+
+@media (max-width: 700px) {
+  .hola-container {
+    width: 95%;
+  }
+}
