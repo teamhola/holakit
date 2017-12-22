@@ -1,5 +1,5 @@
 .hola-card {
-  padding: 2.5rem;
+  padding: var(--hola-card-padding);
   background: #fff;
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
 }
@@ -13,6 +13,6 @@
 }
 
 .hola-card.hola-card-with-image .hola-image:first-child {
-  margin: -2.5rem -2.5rem 2rem -2.5rem;
-  width: calc(100% + 5rem);
+  margin: calc(0rem - var(--hola-card-padding)) calc(0rem - var(--hola-card-padding)) 2rem calc(0rem - var(--hola-card-padding));
+  width: calc(100% + 2 * var(--hola-card-padding));
 }
