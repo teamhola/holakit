@@ -9,7 +9,7 @@
 
 .hola-columns.hola-card-stack {
   columns: 3 20rem;
-  column-gap: 2rem;
+  column-gap: var(--hola-card-gap);
 }
 
 .hola-columns-item {
