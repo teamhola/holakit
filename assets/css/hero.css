@@ -13,7 +13,17 @@
 }
 
 .hola-hero .hola-hero-content {
-  font-size: 1.5rem;
+  font-size: 1.5em;
   padding: 15vh 0;
   color: var(--hola-text-light-color);
+}
+
+@media (max-width: 700px) {
+  .hola-hero {
+    min-height: 25vh;
+  }
+  .hola-hero .hola-hero-content {
+    font-size: 1.3em;
+    padding: 8vh 0;
+  }
 }
