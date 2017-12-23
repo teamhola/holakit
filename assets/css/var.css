@@ -25,7 +25,8 @@
 
 @media (max-width: 700px) {
   .hola-var {
-    --hola-card-padding: 1.8rem;
+    --hola-card-padding: 1.6rem;
     --hola-card-gap: 2.5vw; /* (100vw - 95vw) / 2 */
+    --hola-element-gap: 1rem;
   }
 }
