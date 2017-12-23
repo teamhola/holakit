@@ -23,7 +23,7 @@
   float: right;
 }
 
-.hola-navbar nav a {
+.hola-navbar a {
   display: inline-block;
   font-size: 1.2rem;
   text-decoration: none;
@@ -36,17 +36,17 @@
   padding-left: 1em;
 }
 
-.hola-navbar.hola-navbar-darkbg nav a, .hola-navbar.hola-navbar-darkbg .hola-navbar-toggle-label::before {
+.hola-navbar.hola-navbar-darkbg a, .hola-navbar.hola-navbar-darkbg .hola-navbar-toggle-label::before {
   color: rgba(255, 255, 255, .6);
 }
-.hola-navbar.hola-navbar-darkbg nav a:hover, .hola-navbar.hola-navbar-darkbg nav a:active {
+.hola-navbar.hola-navbar-darkbg a:hover, .hola-navbar.hola-navbar-darkbg a:active {
   color: rgba(255, 255, 255, .9);
 }
 
-.hola-navbar.hola-navbar-lightbg nav a, .hola-navbar.hola-navbar-lightbg .hola-navbar-toggle-label::before {
+.hola-navbar.hola-navbar-lightbg a, .hola-navbar.hola-navbar-lightbg .hola-navbar-toggle-label::before {
   color: rgba(0, 0, 0, .6);
 }
-.hola-navbar.hola-navbar-lightbg nav a:hover, .hola-navbar.hola-navbar-lightbg nav a:active {
+.hola-navbar.hola-navbar-lightbg a:hover, .hola-navbar.hola-navbar-lightbg a:active {
   color: rgba(0, 0, 0, .9);
 }
 
@@ -77,7 +77,7 @@
     left: 0;
     width: 100vw;
     height: 100vh;
-    padding: calc(5rem + 2rem) 2rem;
+    padding: 7rem 2rem;
     color: var(--hola-text-dark-color);
     z-index: 990;
     background: var(--hola-backdrop-color);
@@ -94,7 +94,7 @@
   .hola-navbar-toggle:checked ~ nav.hola-navbar-sub {
     transform: scaleY(1);
   }
-  nav.hola-navbar-sub a {
+  .hola-navbar nav.hola-navbar-sub a {
     color: var(--hola-text-light-color);
     display: block;
   }
