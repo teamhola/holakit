@@ -10,3 +10,9 @@
 .hola-body-typography p {
   margin-bottom: 1em;
 }
+
+@media (max-width: 700px) {
+  .hola-body-typography {
+    font-size: .9rem;
+  }
+}
