@@ -12,3 +12,10 @@
 .hola-footer a {
   color: inherit;
 }
+
+@media (max-width: 700px) {
+  .hola-footer {
+    margin-top: 1.8rem;
+    padding: 3rem 0;
+  }
+}
