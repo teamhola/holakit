@@ -9,7 +9,7 @@
 }
 
 .hola-card-title {
-  margin-bottom: 2rem;
+  margin-bottom: var(--hola-element-gap);
 }
 
 .hola-card.hola-card-with-image .hola-image:first-child {
