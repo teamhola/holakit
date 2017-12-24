@@ -2,6 +2,12 @@
   padding: var(--hola-card-padding);
   background: #fff;
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+  color: var(--hola-text-dark-color);
+}
+
+a .hola-card * {
+  text-decoration: none;
+  color: inherit;
 }
 
 .hola-card p {
