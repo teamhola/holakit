@@ -2,8 +2,8 @@
   background: #fff;
   border-radius: 0;
   border: 1px solid #ccc;
-  font-size: 1rem;
-  line-height: 1.5rem;
+  font-size: 1em;
+  line-height: 1.5;
   transition: .5s;
   padding: .44em .7em;
   -moz-appearance: none;
