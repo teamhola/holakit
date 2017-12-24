@@ -3,8 +3,7 @@
   margin: 0 5px;
   font-weight: bold;
   line-height: 1;
-  font-size: calc(1.25rem - 0.25em);
-  /* ^ Hacky patch for titles, so we won't get too big badges on titles. */
+  font-size: 1rem;
   padding: 6px;
   background: var(--hola-primary-color);
   color: var(--hola-text-light-color);
@@ -18,4 +17,10 @@
 .hola-badge-light, .hola-vmenu-item-active .hola-badge {
   background: var(--hola-bg-on-dark);
   font-weight: normal;
+}
+
+@media (max-width: 700px) {
+  .hola-badge {
+    font-size: .9rem;
+  }
 }
