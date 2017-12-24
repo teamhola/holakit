@@ -3,6 +3,11 @@
   font-family: Montserrat,"Helvetica Neue",Helvetica,Arial,"Lantinghei SC",sans-serif;
 }
 
+.hola-body-typography h1 { font-size: 2em; }
+.hola-body-typography h2 { font-size: 1.5em; }
+.hola-body-typography h3 { font-size: 1.17em; }
+.hola-body-typography h4, .hola-body-typography h5, .hola-body-typography h6 { font-size: 1em; }
+
 .hola-body-typography a {
   color: var(--hola-primary-color);
 }
