@@ -88,6 +88,7 @@
   .hola-navbar-toggle:checked ~ .hola-navbar-toggle-label::before {
     position: fixed;
     content: "✕";
+    color: var(--hola-text-light-color);
     right: 1em;
     z-index: 999;
   }
