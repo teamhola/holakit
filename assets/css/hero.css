@@ -18,6 +18,10 @@
   color: var(--hola-text-light-color);
 }
 
+.hola-card .hola-hero .hola-hero-content {
+  padding: calc(15vh - var(--hola-card-padding)) 0;
+}
+
 @media (max-width: 700px) {
   .hola-hero {
     min-height: 25vh;
@@ -25,5 +29,8 @@
   .hola-hero .hola-hero-content {
     font-size: 1.3em;
     padding: 8vh 0;
+  }
+  .hola-card .hola-hero .hola-hero-content {
+    padding: calc(8vh - var(--hola-card-padding)) 0;
   }
 }
