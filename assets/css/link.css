@@ -1,3 +1,6 @@
+.hola-link-no-underline {
+  text-decoration: none;
+}
 .hola-link-cta {
   text-decoration: none;
   line-height: 2em;
