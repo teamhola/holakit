@@ -13,3 +13,9 @@
   margin: -.7rem -.7rem 1.2rem -.7rem;
   width: calc(100% + 1.4rem);
 }
+
+@media (max-width: 700px) {
+  .hola-card.hola-card-tiny {
+    width: 7rem;
+  }
+}
