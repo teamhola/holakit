@@ -22,3 +22,8 @@ a .hola-card * {
   margin: calc(0rem - var(--hola-card-padding)) calc(0rem - var(--hola-card-padding)) 2rem calc(0rem - var(--hola-card-padding));
   width: calc(100% + 2 * var(--hola-card-padding));
 }
+
+.hola-card.hola-card-full-image img {
+  margin: calc(0rem - var(--hola-card-padding));
+  width: calc(100% + 2 * var(--hola-card-padding));
+}
