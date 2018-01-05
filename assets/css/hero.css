@@ -1,6 +1,5 @@
 .hola-hero {
   min-height: 45vh;
-  background: var(--hola-primary-color);
 }
 
 .hola-hero-height-extended {
@@ -10,6 +9,7 @@
 
 .hola-navbar-with-hero ~ .hola-hero {
   padding-top: 5rem;
+  background-image: var(--hola-primary-color);
 }
 
 .hola-hero .hola-hero-content {
