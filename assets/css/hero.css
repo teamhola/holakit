@@ -9,7 +9,7 @@
 
 .hola-navbar-with-hero ~ .hola-hero {
   padding-top: 5rem;
-  background-image: var(--hola-primary-color);
+  background-color: var(--hola-primary-color);
 }
 
 .hola-hero .hola-hero-content {
