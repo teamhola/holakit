@@ -6,7 +6,7 @@
   font-size: 1rem;
   padding: 6px;
   background: var(--hola-primary-color);
-  color: var(--hola-text-light-color);
+  color: var(--hola-text-light-color) !important;
 }
 
 .hola-badge.hola-badge-radii {
