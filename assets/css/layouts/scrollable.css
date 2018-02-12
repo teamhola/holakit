@@ -1,10 +1,10 @@
 .hola-layout-scrollable-hori {
   box-sizing: content-box;
   overflow-x: auto;
-  padding: 1rem 1rem;
+  padding: 1rem 0;
   white-space: nowrap;
 }
-.hola-layout-scrollable-hori>* {
+.hola-layout-scrollable-hori > .hola-container > * {
   vertical-align: top;
   margin-right: .7rem;
 }
