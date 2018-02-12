@@ -7,7 +7,8 @@
     "build": "parcel build assets/holakit.css",
     "dev": "parcel index.html -d temp",
     "test": "echo \"Currently no test.\" && exit 0",
-    "version": "npm run build && git add dist"
+    "build-doc": "rm -rf styleguide && npx kss -c kss-config.json --builder styleguide-template",
+    "version": "npm run build && npm run build-doc && git add dist styleguide"
   },
   "repository": {
     "type": "git",
@@ -26,10 +27,12 @@
   },
   "homepage": "https://github.com/teamhola/holakit#readme",
   "devDependencies": {
+    "kss": "^3.0.0-beta.18",
     "np": "^2.19.0",
     "npm-check-updates": "^2.14.0",
     "parcel-bundler": "^1.5.1",
-    "postcss-cssnext": "^3.1.0"
+    "postcss-cssnext": "^3.1.0",
+    "serve": "^6.4.9"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org"

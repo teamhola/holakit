@@ -1,0 +1,9 @@
+{
+  "source": "assets/css/",
+  "css": [
+    "/assets/holakit.css"
+  ],
+  "js": [],
+
+  "title": "HolaKit"
+}

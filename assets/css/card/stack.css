@@ -1,3 +1,27 @@
+/*
+
+Card Stack
+
+You have seen this in the basic section. But card stacks are more than a container
+of cards.
+
+We have card stack titles to name the whole stack of cards, and they can be in
+both light and dark versions. In most cases you use dark versions, but in case
+you're using our hero component, you may need to set the first stack title to
+light version to match the dark blue extended hero background. Things can be much
+different when you're using a picture for heros, or a custom primary color. Try
+both color version to decide which suits best.
+
+Card stacks can be used in combination with columns, and we automatically handle
+card margins to have correct shadow rendering - browsers wraps not only content
+but also any display effect applied to content in columns.
+
+Markup: stack.html
+
+Styleguide Components - Cards - Stacks
+
+*/
+
 .hola-card-stack-title {
   line-height: 2em;
 }

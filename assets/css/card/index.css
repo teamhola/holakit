@@ -1,3 +1,14 @@
+/*
+
+Cards
+
+Cards are the basic content blocks in HolaKit. You will be using it in most cases
+you need to host some content.
+
+Styleguide Components - Cards
+
+*/
+
 @import url('./card.css');
 @import url('./tiny.css');
 @import url('./stack.css');
