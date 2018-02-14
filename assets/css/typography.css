@@ -20,6 +20,9 @@
 .hola-body-typography p {
   margin-bottom: 1em;
 }
+.hola-body-typography p:last-child {
+  margin-bottom: 0;
+}
 
 @media (max-width: 700px) {
   .hola-body-typography {
