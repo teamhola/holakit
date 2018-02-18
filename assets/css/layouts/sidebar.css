@@ -1,7 +1,7 @@
 /* TODO: Make hola-layout-container sidebar specific. */
 
 .hola-layout-container {
-  padding: 1rem 0;
+  padding: calc(var(--hola-card-gap) / 2) 0;
 }
 .hola-layout-container::after {
   content: "";
@@ -16,12 +16,12 @@
 
 .hola-layout-container.hola-layout-container-sidebar-right .hola-layout-main {
   width: 70%;
-  padding-right: 1rem;
+  padding-right: calc(var(--hola-card-gap) / 2);
 }
 .hola-layout-container.hola-layout-container-sidebar-right .hola-layout-sidebar {
   width: 30%;
   float: right;
-  padding-left: 1rem;
+  padding-left: calc(var(--hola-card-gap) / 2);
 }
 
 @media (max-width: 700px) {
@@ -31,7 +31,7 @@
   .hola-layout-container.hola-layout-container-sidebar-right .hola-layout-main {
     width: auto;
     padding-right: 0;
-    padding-bottom: var(--hola-card-gap);
+    padding-bottom: calc(var(--hola-card-gap) / 2);
   }
   .hola-layout-container.hola-layout-container-sidebar-right .hola-layout-sidebar {
     width: auto;
