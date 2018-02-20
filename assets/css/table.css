@@ -1,6 +1,7 @@
-.hola-table {
-  max-width: 100%;
+.hola-table-container {
+  overflow-x: auto;
 }
+
 .hola-table.hol-table-fullwidth {
   width: 100%;
 }
