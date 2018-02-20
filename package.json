@@ -6,9 +6,10 @@
   "scripts": {
     "build": "parcel build assets/holakit.css",
     "dev": "parcel index.html -d temp",
+    "prettier": "prettier assets/**.css --write",
     "test": "echo \"Currently no test.\" && exit 0",
     "build-doc": "rm -rf styleguide && npx kss -c kss-config.json --builder styleguide-template",
-    "version": "npm run build && npm run build-doc && git add dist styleguide"
+    "version": "npm run build && npm run build-doc && npm run prettier && git add **"
   },
   "repository": {
     "type": "git",
@@ -32,6 +33,7 @@
     "npm-check-updates": "^2.14.0",
     "parcel-bundler": "^1.5.1",
     "postcss-cssnext": "^3.1.0",
+    "prettier": "^1.10.2",
     "serve": "^6.4.9"
   },
   "publishConfig": {

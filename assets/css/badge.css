@@ -14,13 +14,14 @@
   border-radius: 999em;
 }
 
-.hola-badge-light, .hola-vmenu-item-active .hola-badge {
+.hola-badge-light,
+.hola-vmenu-item-active .hola-badge {
   background: var(--hola-bg-on-dark);
   font-weight: normal;
 }
 
 @media (max-width: 700px) {
   .hola-badge {
-    font-size: .9rem;
+    font-size: 0.9rem;
   }
 }

@@ -1,13 +1,13 @@
 .hola-var {
   --hola-primary-color: #3498db;
-  --hola-text-light-color: rgba(255, 255, 255, .97);
-  --hola-text-dark-color: rgba(0, 0, 0, .8);
-  --hola-bg-on-dark: rgba(255, 255, 255, .4);
-  --hola-backdrop-color: rgba(0, 0, 0, .8);
+  --hola-text-light-color: rgba(255, 255, 255, 0.97);
+  --hola-text-dark-color: rgba(0, 0, 0, 0.8);
+  --hola-bg-on-dark: rgba(255, 255, 255, 0.4);
+  --hola-backdrop-color: rgba(0, 0, 0, 0.8);
 
-  --hola-focus-color: rgba(52, 152, 219, .5);
+  --hola-focus-color: rgba(52, 152, 219, 0.5);
 
-  --hola-avatar-bg: rgba(255, 255, 255, .4);
+  --hola-avatar-bg: rgba(255, 255, 255, 0.4);
 
   --hola-card-padding: 2.5rem;
   --hola-card-gap: 2rem;

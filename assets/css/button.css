@@ -1,17 +1,18 @@
 .hola-button {
   display: inline-block;
   text-decoration: none;
-  padding: .5em 1em;
-  margin: .15em 0;
+  padding: 0.5em 1em;
+  margin: 0.15em 0;
   font-size: 1em;
   line-height: 1.5;
   border: none;
   cursor: pointer;
-  transition: .3s box-shadow ease;
+  transition: 0.3s box-shadow ease;
   border-radius: 0;
 }
-.hola-button:hover, .hola-button:active {
-  box-shadow: 0 0 0 1.5em rgba(255, 255, 255, .5) inset;
+.hola-button:hover,
+.hola-button:active {
+  box-shadow: 0 0 0 1.5em rgba(255, 255, 255, 0.5) inset;
 }
 
 .hola-button.hola-button-normal {

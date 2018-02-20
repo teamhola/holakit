@@ -52,7 +52,9 @@ a .hola-card * {
 }
 
 .hola-card.hola-card-with-image .hola-image:first-child {
-  margin: calc(0rem - var(--hola-card-padding)) calc(0rem - var(--hola-card-padding)) 2rem calc(0rem - var(--hola-card-padding));
+  margin: calc(0rem - var(--hola-card-padding))
+    calc(0rem - var(--hola-card-padding)) 2rem
+    calc(0rem - var(--hola-card-padding));
   width: calc(100% + 2 * var(--hola-card-padding));
 }
 

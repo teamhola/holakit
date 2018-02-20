@@ -8,21 +8,22 @@
 
 .hola-table thead {
   box-shadow: 0 -2px 0 #ccc inset;
-  color: rgba(0, 0, 0, .6);
+  color: rgba(0, 0, 0, 0.6);
 }
 
 .hola-table tbody tr {
   box-shadow: 0 -1px 0 #ccc inset;
 }
 
-.hola-table th, .hola-table td {
+.hola-table th,
+.hola-table td {
   line-height: 1.5;
 }
 
 .hola-table th {
-  padding: .6em;
+  padding: 0.6em;
 }
 
 .hola-table td {
-  padding: .4em .5em;
+  padding: 0.4em 0.5em;
 }

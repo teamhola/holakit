@@ -1,4 +1,5 @@
-.hola-image, .hola-content img {
+.hola-image,
+.hola-content img {
   display: block;
   width: 100%;
   margin: var(--hola-element-gap) 0;

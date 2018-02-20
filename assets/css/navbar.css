@@ -12,14 +12,16 @@
   margin-bottom: -5rem;
 }
 
-.hola-navbar nav, .hola-navbar-toggle-label {
+.hola-navbar nav,
+.hola-navbar-toggle-label {
   display: inline-block;
   line-height: 5rem;
   overflow-x: auto;
   white-space: nowrap;
   max-width: 100%;
 }
-.hola-navbar nav.hola-navbar-sub, .hola-navbar-toggle-label {
+.hola-navbar nav.hola-navbar-sub,
+.hola-navbar-toggle-label {
   float: right;
 }
 
@@ -27,27 +29,32 @@
   display: inline-block;
   font-size: 1.2rem;
   text-decoration: none;
-  transition: .3s color ease;
+  transition: 0.3s color ease;
 }
 .hola-navbar nav.hola-navbar-main a {
   padding-right: 1em;
 }
-.hola-navbar nav.hola-navbar-sub a, .hola-navbar-toggle-label {
+.hola-navbar nav.hola-navbar-sub a,
+.hola-navbar-toggle-label {
   padding-left: 1em;
 }
 
-.hola-navbar.hola-navbar-darkbg a, .hola-navbar.hola-navbar-darkbg .hola-navbar-toggle-label::before {
-  color: rgba(255, 255, 255, .6);
+.hola-navbar.hola-navbar-darkbg a,
+.hola-navbar.hola-navbar-darkbg .hola-navbar-toggle-label::before {
+  color: rgba(255, 255, 255, 0.6);
 }
-.hola-navbar.hola-navbar-darkbg a:hover, .hola-navbar.hola-navbar-darkbg a:active {
-  color: rgba(255, 255, 255, .9);
+.hola-navbar.hola-navbar-darkbg a:hover,
+.hola-navbar.hola-navbar-darkbg a:active {
+  color: rgba(255, 255, 255, 0.9);
 }
 
-.hola-navbar.hola-navbar-lightbg a, .hola-navbar.hola-navbar-lightbg .hola-navbar-toggle-label::before {
-  color: rgba(0, 0, 0, .6);
+.hola-navbar.hola-navbar-lightbg a,
+.hola-navbar.hola-navbar-lightbg .hola-navbar-toggle-label::before {
+  color: rgba(0, 0, 0, 0.6);
 }
-.hola-navbar.hola-navbar-lightbg a:hover, .hola-navbar.hola-navbar-lightbg a:active {
-  color: rgba(0, 0, 0, .9);
+.hola-navbar.hola-navbar-lightbg a:hover,
+.hola-navbar.hola-navbar-lightbg a:active {
+  color: rgba(0, 0, 0, 0.9);
 }
 
 .hola-navbar nav .hola-navbar-brand {
@@ -83,7 +90,7 @@
     background: var(--hola-backdrop-color);
     transform: scaleY(0);
     transform-origin: top;
-    transition: .3s transform ease;
+    transition: 0.3s transform ease;
   }
   .hola-navbar-toggle:checked ~ .hola-navbar-toggle-label::before {
     position: fixed;
