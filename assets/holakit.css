@@ -1,13 +1,8 @@
-@import './css/general/vendor.css';
+@import './css/general';
 
-@import './css/general/reset.css';
-@import './css/general/var.css';
-@import './css/general/typography.css';
-@import './css/general/columns.css';
+@import './css/layouts';
 
-@import './css/layouts/index.css';
-
-@import './css/card/index.css';
+@import './css/card';
 @import './css/link.css';
 @import './css/badge.css';
 @import './css/image.css';
