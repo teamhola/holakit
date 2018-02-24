@@ -9,7 +9,7 @@
     "prettier": "prettier assets/**.css --write",
     "test": "echo \"Currently no test.\" && exit 0",
     "build-doc": "rm -rf styleguide && npx kss -c kss-config.json --builder styleguide-template",
-    "version": "npm run build && npm run build-doc && npm run prettier && git add **"
+    "version": "npm run build && npm run build-doc && npm run prettier && git add assets dist styleguide"
   },
   "repository": {
     "type": "git",
