@@ -35,10 +35,10 @@ Styleguide Components - Cards - Stacks
 }
 
 .hola-card-stack .hola-card {
-  margin-bottom: var(--hola-card-gap);
-}
-
-.hola-card-stack.hola-columns .hola-card {
   /* We're doing this this avoid our card shadow being split between columns. */
   margin: calc(var(--hola-card-gap) / 2) 0;
+}
+
+.hola-layout-container .hola-card-stack .hola-card {
+  margin-bottom: var(--hola-card-gap);
 }
