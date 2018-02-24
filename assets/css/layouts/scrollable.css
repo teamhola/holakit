@@ -1,7 +1,6 @@
 .hola-layout-scrollable-hori {
   box-sizing: content-box;
   overflow-x: auto;
-  padding: calc(var(--hola-card-gap) / 2) 0;
   white-space: nowrap;
 }
 .hola-layout-scrollable-hori > .hola-container > * {
