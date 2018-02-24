@@ -41,4 +41,5 @@ Styleguide Components - Cards - Stacks
 
 .hola-layout-container .hola-card-stack .hola-card {
   margin-bottom: var(--hola-card-gap);
+  margin-top: 0;
 }
