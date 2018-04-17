@@ -6,6 +6,9 @@
   font-size: 1em;
   line-height: 1.5;
   border: none;
+  outline: none;
+  -webkit-appearance: none;
+  box-shadow: 0 0 0 0 #fff inset;
   cursor: pointer;
   transition: 0.3s box-shadow ease;
   border-radius: 0;
