@@ -9,3 +9,6 @@
   vertical-align: top;
   margin-right: 0.7rem;
 }
+.hola-layout-scrollable-hori > .hola-container > *:last-child {
+  margin-right: 0;
+}
