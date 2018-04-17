@@ -10,5 +10,8 @@
   margin-right: 0.7rem;
 }
 .hola-layout-scrollable-hori > .hola-container > .hola-card:last-child {
-  margin-right: 0;
+  margin-right: 10vw;
+  /* Usually this works, but might broken on wider screen. We will still need to
+   * improve this handling.
+   */
 }
