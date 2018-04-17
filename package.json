@@ -30,11 +30,11 @@
   "devDependencies": {
     "kss": "^3.0.0-beta.18",
     "np": "^2.20.1",
-    "npm-check-updates": "^2.14.0",
-    "parcel-bundler": "^1.5.1",
+    "npm-check-updates": "^2.14.1",
+    "parcel-bundler": "^1.7.1",
     "postcss-cssnext": "^3.1.0",
-    "prettier": "^1.10.2",
-    "serve": "^6.4.9"
+    "prettier": "^1.12.1",
+    "serve": "^6.5.5"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
