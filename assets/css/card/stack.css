@@ -39,7 +39,10 @@ Styleguide Components - Cards - Stacks
   margin: calc(var(--hola-card-gap) / 2) 0;
 }
 
-.hola-layout-container .hola-card-stack .hola-card {
+.hola-card-stack .hola-card {
   margin-bottom: var(--hola-card-gap);
   margin-top: 0;
+}
+.hola-card-stack .hola-card:last-child {
+  margin-bottom: 0;
 }
