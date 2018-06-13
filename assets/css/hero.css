@@ -7,7 +7,7 @@
   margin-bottom: -10rem;
 }
 
-.hola-navbar-with-hero ~ .hola-hero {
+.hola-navbar-with-hero ~ .hola-hero, .hola-hero.hola-hero-colored {
   padding-top: 5rem;
   background-color: var(--hola-primary-color);
 }
