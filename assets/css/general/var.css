@@ -1,4 +1,4 @@
-.hola-var {
+.hola-var, :root {
   --hola-primary-color: #3498db;
   --hola-text-light-color: rgba(255, 255, 255, 0.97);
   --hola-text-dark-color: rgba(0, 0, 0, 0.8);
@@ -24,7 +24,7 @@
 }
 
 @media (max-width: 700px) {
-  .hola-var {
+  .hola-var, :root {
     --hola-card-padding: 1.6rem;
     --hola-card-gap: 2.5vw; /* (100vw - 95vw) / 2 */
     --hola-element-gap: 1rem;
