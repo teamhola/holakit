@@ -1,6 +1,5 @@
 {
   "plugins": {
-    "autoprefixer": true,
-    "postcss-cssnext": true
+    "autoprefixer": true
   }
 }
