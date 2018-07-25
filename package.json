@@ -28,15 +28,15 @@
   },
   "homepage": "https://github.com/teamhola/holakit#readme",
   "devDependencies": {
-    "autoprefixer": "^8.6.4",
-    "caniuse-lite": "^1.0.30000697",
-    "kss": "^3.0.0-beta.21",
+    "autoprefixer": "^9.0.1",
+    "caniuse-lite": "^1.0.30000865",
+    "kss": "^3.0.0-beta.23",
     "np": "^3.0.4",
     "npm-check-updates": "^2.14.2",
-    "parcel-bundler": "^1.9.3",
+    "parcel-bundler": "1.9.7",
     "postcss-cssnext": "^3.1.0",
     "prettier": "^1.13.7",
-    "serve": "^9.1.0"
+    "serve": "^9.3.0"
   },
   "publishConfig": {
     "registry": "https://registry.npmjs.org"
