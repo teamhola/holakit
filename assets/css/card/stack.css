@@ -14,7 +14,8 @@ both color version to decide which suits best.
 
 Card stacks can be used in combination with columns, and we automatically handle
 card margins to have correct shadow rendering - browsers wraps not only content
-but also any display effect applied to content in columns.
+but also any display effect applied to content in columns. Be aware, currently we
+only support using card stack columns directly under `hola-container`.
 
 Markup: stack.html
 
@@ -43,13 +44,20 @@ Styleguide Components - Cards - Stacks
 }
 
 .hola-columns.hola-card-stack {
+  position: relative;
   columns: 3 20rem;
-  column-gap: var(--hola-card-gap);
+  column-gap: 0;
+  box-sizing: border-box;
+  margin: 0 calc(var(--hola-card-gap) / -2);
+  /* Due to some bugs in iOS Safari, column gap is simulated with paddings of column items.
+  Of course we need to apply a pair of negative margin on column itself to make it align. */
 }
 
 .hola-columns.hola-card-stack > .hola-columns-item {
-  padding: calc(var(--hola-card-gap) / 2) 0;
+  padding: calc(var(--hola-card-gap) / 2);
+  box-sizing: border-box;
 }
 .hola-columns.hola-card-stack > .hola-columns-item > .hola-card {
+  position: relative;
   margin: 0;
 }

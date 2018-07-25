@@ -1,4 +1,5 @@
 .hola-container {
+  position: relative;
   width: 90%;
   max-width: 1220px;
   margin: 0 auto;
