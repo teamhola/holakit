@@ -7,11 +7,6 @@
   column-rule: 1px solid #eee;
 }
 
-.hola-columns.hola-card-stack {
-  columns: 3 20rem;
-  column-gap: var(--hola-card-gap);
-}
-
 .hola-columns-item {
   display: inline-block;
   width: 100%;
