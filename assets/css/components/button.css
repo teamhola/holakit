@@ -38,3 +38,4 @@
   color: var(--hola-text-light-color);
   box-shadow: 0 0 0 .2em var(--hola-text-light-color) inset;
 }
+/* TODO: Hover/active effect for ghost buttons */
