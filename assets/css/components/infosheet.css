@@ -1,3 +1,18 @@
+/*
+
+Info Sheet
+
+Info Sheet is simply designed for displaying key-value-paired data. It's only for plain
+text data and you should never try to embed any other compoents in it, except badges.
+It's great for showing something like a ticket or pass. Also make sure that your key
+should be concise; Longer key may result in a ugly multiline label.
+
+Markup: infosheet.html
+
+Styleguide Components - Info Sheet
+
+*/
+
 .hola-infosheet-row {
   display: block;
   line-height: 1.5;
