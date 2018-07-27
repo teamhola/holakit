@@ -29,7 +29,12 @@
 }
 
 .hola-button.hola-button-ghost {
-  box-shadow: 0 0 0 3px var(--hola-primary-color) inset;
+  box-shadow: 0 0 0 .2em var(--hola-primary-color) inset;
   font-weight: bold;
   color: var(--hola-primary-color);
+}
+.hola-hero.hola-hero-dark-bg .hola-button.hola-button-ghost {
+  font-size: 1rem;
+  color: var(--hola-text-light-color);
+  box-shadow: 0 0 0 .2em var(--hola-text-light-color) inset;
 }
