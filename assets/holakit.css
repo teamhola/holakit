@@ -1,18 +1,3 @@
 @import "./css/general";
-
 @import "./css/layouts";
-
-@import "./css/card";
-@import "./css/content.css";
-@import "./css/link.css";
-@import "./css/badge.css";
-@import "./css/image.css";
-@import "./css/navbar.css";
-@import "./css/hero.css";
-@import "./css/form.css";
-@import "./css/button.css";
-@import "./css/v-menu.css";
-@import "./css/avatar.css";
-@import "./css/infosheet.css";
-@import "./css/table.css";
-@import "./css/footer.css";
+@import "./css/components";
