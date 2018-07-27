@@ -1,17 +1,3 @@
 .hola-link-no-underline {
   text-decoration: none;
 }
-.hola-link-cta {
-  text-decoration: none;
-  line-height: 2em;
-  opacity: 0.6;
-  transition: 0.3s opacity ease;
-  color: inherit !important;
-}
-.hola-link-cta:hover,
-.hola-link-cta:active {
-  opacity: 0.9;
-}
-.hola-link-cta::before {
-  content: "► ";
-}
