@@ -22,7 +22,14 @@
   background: #eee;
   color: var(--hola-text-dark-color);
 }
+
 .hola-button.hola-button-primary {
   background: var(--hola-primary-color);
   color: var(--hola-text-light-color);
+}
+
+.hola-button.hola-button-ghost {
+  box-shadow: 0 0 0 3px var(--hola-primary-color) inset;
+  font-weight: bold;
+  color: var(--hola-primary-color);
 }
