@@ -1,3 +1,26 @@
+/*
+
+Buttons
+
+Buttons are one of the most used components. It's the very basic way that users can 
+interact with an application. Currently HolaKit provides 3 kinds of button: Normal
+buttons, primary buttons and Ghost buttons.
+
+* **Normal Buttons**: For general purpose.
+* **Primary Buttons**: For primary operations. Normally in a row of buttons, you have
+  at least one primary buttons, for the most frequent usage.
+* **Ghost Buttons**: For banner and heroes. It's kind of call-to-action.
+
+All buttons classes can be apply to form submits (`<input type="submit">`), HTML buttons
+(`<button>`) and links (`<a>`). In many cases you can also use just a bare `a.hola-button`,
+for links in a row with other buttons to be properly aligned.
+
+Markup: button.html
+
+Styleguide Components - Buttons
+
+*/
+
 .hola-button {
   display: inline-block;
   text-decoration: none;
