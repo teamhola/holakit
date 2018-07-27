@@ -7,7 +7,7 @@
   margin-bottom: -10rem;
 }
 
-.hola-navbar-with-hero ~ .hola-hero {
+.hola-navbar-transparent ~ .hola-hero {
   padding-top: 5rem;
   background-color: var(--hola-primary-color);
 }
@@ -18,15 +18,13 @@
 .hola-hero .hola-hero-content {
   font-size: 1.5em;
   padding: 15vh 0;
-  color: var(--hola-text-light-color); /* TODO: Deprecate this in 1.0. */
 }
 
-.hola-hero .hola-hero-content.hola-hero-content-light {
-  color: var(--hola-text-light-color);
-}
-
-.hola-hero .hola-hero-content.hola-hero-content-dark {
+.hola-hero.hola-hero-light-bg {
   color: var(--hola-text-dark-color);
+}
+.hola-hero.hola-hero-dark-bg {
+  color: var(--hola-text-light-color);
 }
 
 .hola-card .hola-hero .hola-hero-content {
