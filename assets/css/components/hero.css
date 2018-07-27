@@ -37,7 +37,11 @@
   }
   .hola-hero .hola-hero-content {
     font-size: 1.3em;
-    padding: 8vh 0;
+    padding: 3vh 0;
+  }
+  .hola-hero-height-extended {
+    padding-bottom: 4rem;
+    margin-bottom: -4rem;
   }
   .hola-card .hola-hero .hola-hero-content {
     padding: calc(8vh - var(--hola-card-padding)) 0;
