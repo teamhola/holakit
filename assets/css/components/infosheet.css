@@ -21,7 +21,6 @@
 }
 
 .hola-infosheet-row .hola-infosheet-value {
-  display: inline-block;
   width: 70%;
   padding-left: .5em;
   float: right;
