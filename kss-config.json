@@ -1,7 +1,7 @@
 {
   "source": "assets/css/",
   "css": [
-    "/assets/holakit.css"
+    "/dist/holakit.css"
   ],
   "js": [],
 
