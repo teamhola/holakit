@@ -4,6 +4,7 @@
   overflow-x: auto;
   overflow-y: visible;
   white-space: nowrap;
+  -webkit-overflow-scrolling: touch;
 }
 .hola-layout-scrollable-hori > .hola-container > * {
   vertical-align: top;
