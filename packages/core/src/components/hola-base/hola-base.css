@@ -10,19 +10,37 @@
 }
 
 :root {
+  /**
+   * @prop --hola-primary-color: Primary color applied throughout the whole
+   *   component set.
+   **/
   --hola-primary-color: #3498db;
+
+  /**
+   * @prop --hola-text-light-color: Light color for text. Usually you don't
+   *   change this.
+   * @prop --hola-text-dark-color: Dark color for text. Like the light one.
+   **/
   --hola-text-light-color: rgba(255, 255, 255, 0.97);
   --hola-text-dark-color: rgba(0, 0, 0, 0.8);
-  --hola-bg-on-dark: rgba(255, 255, 255, 0.4);
+
+  /**
+   * @prop --hola-backdrop-color: Color of backdrop for overlays, like the
+   *   navigation on mobile.
+   **/
   --hola-backdrop-color: rgba(0, 0, 0, 0.8);
 
+  /**
+   * @prop --hola-focus-color: Color used in focus glows around inputs and
+   *   other controls.
+   **/
   --hola-focus-color: rgba(52, 152, 219, 0.5);
 
-  --hola-avatar-bg: rgba(255, 255, 255, 0.4);
-
-  --hola-card-padding: 2.5rem;
-  --hola-card-gap: 2rem;
-
+  /**
+   * @prop --hola-elment-gap: The gap used between block elements in a vertical
+   *   flow of components. Notice that this setting doesn't affect paragraph
+   *   gaps, only component gaps, like the gap between an image and a paragraph.
+   **/
   --hola-element-gap: 2rem;
 
   @media (max-width: 700px) {
