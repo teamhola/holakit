@@ -1,9 +1,0 @@
-{
-  "source": "assets/css/",
-  "css": [
-    "/dist/holakit.css"
-  ],
-  "js": [],
-
-  "title": "HolaKit"
-}
