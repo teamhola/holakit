@@ -4,7 +4,7 @@ In 0.x versions of Holakit, we used a lot of CSS classes and its combinations to
 
 > **Why jumping over 1.x ?** We did plann to release a 1.x series, but we found that 0.x are not worth continuing due to the framework design, so we decided to move to the *WebComponents* way after then. In this way, tagging the new version as 1.x won't be proper, since it's not a "stable release of 0.x" in common sense.
 
-This guide is designed for refactoring existing Holakit 0.x apps to use recommended Holakit 2.x
+This guide is designed for refactoring existing Holakit 0.x apps to use recommended Holakit 2.x.
 
 ## General
 

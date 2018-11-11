@@ -7,11 +7,13 @@ declare module '@stencil/postcss' {
 }
 
 export const config: Config = {
-  namespace: 'mycomponent',
+  namespace: 'HolakitCore',
   plugins: [
-    postcss([
-      postcssPresetEnv()
-    ])
+    postcss({
+      plugins: [postcssPresetEnv({
+        stage: 0
+      })]
+    })
   ],
   outputTargets:[
     {
