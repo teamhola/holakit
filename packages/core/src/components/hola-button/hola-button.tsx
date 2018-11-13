@@ -8,8 +8,19 @@ import { Component, Prop, Element } from '@stencil/core';
 export class HolaButton {
   @Element() el: HTMLElement
 
+  /**
+   * When you need this to be a link, specify this as a url.
+   */
   @Prop() href : string = '#'
+
+  /**
+   * The type of button when this element acts as `<button>`.
+   */
   @Prop() type : string = 'button'
+
+  /**
+   * Add this if you want this acts like a form submit.
+   */
   @Prop() submit : boolean = false
 
   private onClick (event : Event) {

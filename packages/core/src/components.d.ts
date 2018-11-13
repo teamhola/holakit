@@ -16,13 +16,31 @@ export namespace Components {
   interface HolaBaseAttributes extends StencilHTMLAttributes {}
 
   interface HolaButton {
+    /**
+    * When you need this to be a link, specify this as a url.
+    */
     'href': string;
+    /**
+    * Add this if you want this acts like a form submit.
+    */
     'submit': boolean;
+    /**
+    * The type of button when this element acts as `<button>`.
+    */
     'type': string;
   }
   interface HolaButtonAttributes extends StencilHTMLAttributes {
+    /**
+    * When you need this to be a link, specify this as a url.
+    */
     'href'?: string;
+    /**
+    * Add this if you want this acts like a form submit.
+    */
     'submit'?: boolean;
+    /**
+    * The type of button when this element acts as `<button>`.
+    */
     'type'?: string;
   }
 }
