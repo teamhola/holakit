@@ -1,0 +1,45 @@
+.button {
+  display: inline-block;
+  text-decoration: none;
+  padding: 0.5em 1em;
+  margin: 0.15em 0;
+  font-size: 1em;
+  line-height: 1.5;
+  border: none;
+  outline: none;
+  -webkit-appearance: none;
+  box-shadow: 0 0 0 0 #fff inset;
+  cursor: pointer;
+  transition: 0.3s box-shadow ease;
+  border-radius: 0;
+}
+.button:hover,
+.button:active {
+  box-shadow: 0 0 0 1.5em rgba(255, 255, 255, 0.5) inset;
+}
+
+:host([normal]) > .button {
+  background: #eee;
+  color: var(--hola-text-dark-color);
+}
+
+:host([primary]) > .button {
+  background: var(--hola-primary-color);
+  color: var(--hola-text-light-color);
+}
+
+:host([ghost]) > .button {
+  box-shadow: 0 0 0 .2em var(--hola-primary-color) inset;
+  font-weight: bold;
+  color: var(--hola-primary-color);
+}
+:host([ghost]:host-context(hola-hero[dark-bg])) > .button {
+  /* 
+   * For some reason this selector doesn't work on Safari. Due to the limited
+   * functionality of Safari's DevTools, we will need further investigation on it.
+   */
+  font-size: 1rem;
+  color: var(--hola-text-light-color);
+  box-shadow: 0 0 0 .2em var(--hola-text-light-color) inset;
+}
+/* TODO: Hover/active effect for ghost buttons */

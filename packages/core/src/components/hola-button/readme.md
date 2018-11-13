@@ -6,9 +6,16 @@ This also sets default values for all variables.
 
 Sometimes you only use one or two of components in this set. In that case you may not want to set these global styles, but just set required base styles on some parent elements.
 
-The variables showed on this page are global variables that is used by more than one component in this set. To configure a specific component, see its own page.
-
 <!-- Auto Generated Below -->
+
+
+## Properties
+
+| Property | Attribute | Description | Type      |
+| -------- | --------- | ----------- | --------- |
+| `href`   | `href`    |             | `string`  |
+| `submit` | `submit`  |             | `boolean` |
+| `type`   | `type`    |             | `string`  |
 
 
 ----------------------------------------------

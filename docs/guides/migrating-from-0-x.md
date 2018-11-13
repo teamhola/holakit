@@ -23,3 +23,22 @@ Since now Holakit is a set of WebComponents, you will also need to import the JS
 
 `<hola-base>` is a special component that implements some basic resets and variables for the whole component set. You can put it at the beginning of `<body>`. This replaces `hola-var`, `hola-body-typography` and `hola-html-reset`. You should drop these classes on root elements.
 
+### Most of the time...
+
+Components are just transformed in a general way when we convert them to WebComponents:
+
+* component class (`.hola-button`) -> component element (`<hola-button>`)
+* modifier class (`.hola-button-primary`) -> component property (`<hola-button primary></hola-button>`)
+* sub-element class (`.hola-infosheet-row`) -> sub-element class (`<hola-infosheet><p class="row"></p></hola-infosheet>`)
+
+But as always, we don't like complicated things. Some components may have different patterns, and some may redesigned (or for new components designed in 2.x, first-time designed) from scratch with WebComponents' advantages in hand. You should always refer to the docs of Holakit 2.x to see the right way to make full use of our component set.
+
+## Components
+
+### <hola-button>
+
+The only thing to mention is, since we are now custom elements, you can't just change the tag name. But the solution is even easier:
+
+* Setting `href` property on `<hola-button>` to turn it into a link (`<a>`).
+* Embedding `<hola-button>` into a `<form>` to use it as a form element. By default it will be a `<button type='button'>`, but you can change the `type` by changing `type` on `<hola-button>`.
+* To use as a form submit, set a `submit` property on `<hola-button>`. This will make `<hola-button>` act as an `<input type="submit">`.

@@ -14,15 +14,28 @@ export namespace Components {
 
   interface HolaBase {}
   interface HolaBaseAttributes extends StencilHTMLAttributes {}
+
+  interface HolaButton {
+    'href': string;
+    'submit': boolean;
+    'type': string;
+  }
+  interface HolaButtonAttributes extends StencilHTMLAttributes {
+    'href'?: string;
+    'submit'?: boolean;
+    'type'?: string;
+  }
 }
 
 declare global {
   interface StencilElementInterfaces {
     'HolaBase': Components.HolaBase;
+    'HolaButton': Components.HolaButton;
   }
 
   interface StencilIntrinsicElements {
     'hola-base': Components.HolaBaseAttributes;
+    'hola-button': Components.HolaButtonAttributes;
   }
 
 
@@ -32,12 +45,20 @@ declare global {
     new (): HTMLHolaBaseElement;
   };
 
+  interface HTMLHolaButtonElement extends Components.HolaButton, HTMLStencilElement {}
+  var HTMLHolaButtonElement: {
+    prototype: HTMLHolaButtonElement;
+    new (): HTMLHolaButtonElement;
+  };
+
   interface HTMLElementTagNameMap {
     'hola-base': HTMLHolaBaseElement
+    'hola-button': HTMLHolaButtonElement
   }
 
   interface ElementTagNameMap {
     'hola-base': HTMLHolaBaseElement;
+    'hola-button': HTMLHolaButtonElement;
   }
 
 

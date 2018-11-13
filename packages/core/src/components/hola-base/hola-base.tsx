@@ -5,7 +5,7 @@ import { Component } from '@stencil/core';
   styleUrl: 'hola-base.css'
 })
 export class HolaBase {
-  render() {
-    return;
+  render () {
+    return
   }
 }
