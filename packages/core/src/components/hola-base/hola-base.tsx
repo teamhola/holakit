@@ -2,7 +2,10 @@ import { Component } from '@stencil/core';
 
 @Component({
   tag: 'hola-base',
-  styleUrl: 'hola-base.css'
+  styleUrls: [
+    'normalize.css',
+    'hola-base.css'
+  ]
 })
 export class HolaBase {
   render () {

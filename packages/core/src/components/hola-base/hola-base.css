@@ -1,14 +1,3 @@
-* {
-  margin: 0;
-  padding: 0;
-}
-
-*:hover,
-*:focus,
-*:active {
-  outline: 0;
-}
-
 :root {
   /**
    * @prop --hola-primary-color: Primary color applied throughout the whole
@@ -44,14 +33,13 @@
   --hola-element-gap: 2rem;
 
   @media (max-width: 700px) {
-    --hola-card-padding: 1.6rem;
-    --hola-card-gap: 2.5vw; /* (100vw - 95vw) / 2 */
     --hola-element-gap: 1rem;
   }
 }
 
 body {
   color: var(--hola-text-dark-color);
+  background: #eee;
   font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, "Lantinghei SC",
     sans-serif;
   @media (max-width: 700px) {
