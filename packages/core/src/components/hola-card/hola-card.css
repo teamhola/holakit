@@ -1,0 +1,54 @@
+:host {
+  /**
+   * @prop --hola-card-padding: Specify the padding of cards. Currently it only
+   *   affects normal size cards.
+   */
+  --hola-card-padding: 2.5rem;
+
+  /**
+   * @prop --hola-card-gap: Specify the gap between cards. It's shared across
+   *   both vertical and horizonal.
+   */
+  --hola-card-gap: 2rem;
+
+  @media (max-width: 700px) {
+    --hola-card-padding: 1.6rem;
+    --hola-card-gap: 2.5vw; /* (100vw - 95vw) / 2 */
+  }
+}
+
+:host {
+  display: block;
+  box-sizing: border-box;
+  padding: var(--hola-card-padding);
+  background: #fff;
+  box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
+  color: var(--hola-text-dark-color);
+  background-size: cover;
+  background-position: center;
+}
+
+::slotted(*) {
+  text-decoration: none;
+  color: inherit;
+}
+
+::slotted(p) {
+  line-height: 22px;
+}
+
+::slotted(.title) {
+  margin-bottom: var(--hola-element-gap);
+}
+
+:host([with-image]) ::slotted(img:first-child) {
+  margin: calc(0rem - var(--hola-card-padding))
+    calc(0rem - var(--hola-card-padding)) 2rem
+    calc(0rem - var(--hola-card-padding));
+  width: calc(100% + 2 * var(--hola-card-padding));
+}
+
+:host([full-image]) ::slotted(img) {
+  margin: calc(0rem - var(--hola-card-padding));
+  width: calc(100% + 2 * var(--hola-card-padding));
+}

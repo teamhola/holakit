@@ -43,17 +43,22 @@ export namespace Components {
     */
     'type'?: string;
   }
+
+  interface HolaCard {}
+  interface HolaCardAttributes extends StencilHTMLAttributes {}
 }
 
 declare global {
   interface StencilElementInterfaces {
     'HolaBase': Components.HolaBase;
     'HolaButton': Components.HolaButton;
+    'HolaCard': Components.HolaCard;
   }
 
   interface StencilIntrinsicElements {
     'hola-base': Components.HolaBaseAttributes;
     'hola-button': Components.HolaButtonAttributes;
+    'hola-card': Components.HolaCardAttributes;
   }
 
 
@@ -69,14 +74,22 @@ declare global {
     new (): HTMLHolaButtonElement;
   };
 
+  interface HTMLHolaCardElement extends Components.HolaCard, HTMLStencilElement {}
+  var HTMLHolaCardElement: {
+    prototype: HTMLHolaCardElement;
+    new (): HTMLHolaCardElement;
+  };
+
   interface HTMLElementTagNameMap {
     'hola-base': HTMLHolaBaseElement
     'hola-button': HTMLHolaButtonElement
+    'hola-card': HTMLHolaCardElement
   }
 
   interface ElementTagNameMap {
     'hola-base': HTMLHolaBaseElement;
     'hola-button': HTMLHolaButtonElement;
+    'hola-card': HTMLHolaCardElement;
   }
 
 
