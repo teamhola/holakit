@@ -9,6 +9,7 @@
   outline: none;
   -webkit-appearance: none;
   box-shadow: 0 0 0 0 #fff inset;
+  background: transparent;
   cursor: pointer;
   transition: 0.3s box-shadow ease;
   border-radius: 0;
