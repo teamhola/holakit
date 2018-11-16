@@ -35,10 +35,19 @@ But as always, we don't like complicated things. Some components may have differ
 
 ## Components
 
-### <hola-button>
+### `<hola-button>`
 
 The only thing to mention is, since we are now custom elements, you can't just change the tag name. But the solution is even easier:
 
 * Setting `href` property on `<hola-button>` to turn it into a link (`<a>`).
 * Embedding `<hola-button>` into a `<form>` to use it as a form element. By default it will be a `<button type='button'>`, but you can change the `type` by changing `type` on `<hola-button>`.
 * To use as a form submit, set a `submit` property on `<hola-button>`. This will make `<hola-button>` act as an `<input type="submit">`.
+
+### `.hola-card-stack` with `.hola-columns`
+
+Because it's kind of too complex, we decided not to combine these two classes in any cases. Don't worry, this won't break your design:
+
+* More than one card in a vertical scene both on mobile & desktop (e.g. in sidebar): Use `<hola-card-stack>`.
+* Various card want to be distributed to multi columns one desktop to make use of horizonal available space: Use `<hola-columns>` directly.
+
+Notice: if you want a card flow, please don't `<hola-columns>` since it distributes cards vertical-first.
