@@ -1,0 +1,13 @@
+:host([list]) {
+  padding: 0;
+  overflow: hidden;
+}
+:host([list]) ::slotted(.item) {
+  display: block;
+  padding: calc(var(--hola-card-padding) / 2) var(--hola-card-padding);
+  margin-bottom: 3px;
+  box-shadow: 0 1px 4px rgba(0, 0, 0, 0.09), 0 -1px 3px rgba(0, 0, 0, 0.07);
+}
+:host([list]) ::slotted(.item:last-child) {
+  margin-bottom: 0;
+}
