@@ -1,0 +1,77 @@
+:root {
+  /**
+   * @prop --hola-primary-color: Primary color applied throughout the whole
+   *   component set.
+   **/
+  --hola-primary-color: #3498db;
+
+  /**
+   * @prop --hola-text-light-color: Light color for text. Usually you don't
+   *   change this.
+   * @prop --hola-text-dark-color: Dark color for text. Like the light one.
+   **/
+  --hola-text-light-color: rgba(255, 255, 255, 0.97);
+  --hola-text-dark-color: rgba(0, 0, 0, 0.8);
+
+  /**
+   * @prop --hola-backdrop-color: Color of backdrop for overlays, like the
+   *   navigation on mobile.
+   **/
+  --hola-backdrop-color: rgba(0, 0, 0, 0.8);
+
+  /**
+   * @prop --hola-focus-color: Color used in focus glows around inputs and
+   *   other controls.
+   **/
+  --hola-focus-color: rgba(52, 152, 219, 0.5);
+
+  /**
+   * @prop --hola-elment-gap: The gap used between block elements in a vertical
+   *   flow of components. Notice that this setting doesn't affect paragraph
+   *   gaps, only component gaps, like the gap between an image and a paragraph.
+   **/
+  --hola-element-gap: 2rem;
+
+  @media (max-width: 700px) {
+    --hola-element-gap: 1rem;
+  }
+}
+
+body {
+  color: var(--hola-text-dark-color);
+  background: #eee;
+  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, "Lantinghei SC",
+    sans-serif;
+  @media (max-width: 700px) {
+    font-size: 0.9rem;
+  }
+}
+
+h1 {
+  font-size: 2em;
+}
+h2 {
+  font-size: 1.5em;
+}
+h3 {
+  font-size: 1.17em;
+}
+body :matches(h4, h5, h6) {
+  font-size: 1em;
+}
+
+body :matches(h1, h2, h3, h4, h5, h6) a {
+  color: inherit;
+  text-decoration: inherit;
+}
+
+a {
+  color: var(--hola-primary-color);
+}
+
+p {
+  margin-bottom: 1em;
+}
+p:last-child {
+  margin-bottom: 0;
+}

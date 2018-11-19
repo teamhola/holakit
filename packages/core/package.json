@@ -1,0 +1,50 @@
+{
+  "name": "@holakit/core",
+  "version": "2.0.0-alpha.0",
+  "description": "Core set of components in Holakit.",
+  "keywords": [
+    "holakit",
+    "style",
+    "design",
+    "ui",
+    "component",
+    "webcomponents"
+  ],
+  "author": "laosb <laosb@lasteam.net>",
+  "homepage": "http://teamhola.github.io/holakit",
+  "license": "MIT",
+  "module": "dist/esm/index.js",
+  "main": "dist/index.js",
+  "types": "dist/types/components.d.ts",
+  "collection": "dist/collection/collection-manifest.json",
+  "files": [
+    "dist/"
+  ],
+  "scripts": {
+    "build": "stencil build",
+    "docs": "stencil build --docs",
+    "start": "stencil build --docs --dev --watch --serve",
+    "test": "stencil test --spec --e2e",
+    "test.watch": "stencil test --spec --e2e --watchAll"
+  },
+  "dependencies": {},
+  "devDependencies": {
+    "@stencil/core": "~0.15.1",
+    "@stencil/postcss": "^0.1.0",
+    "postcss-preset-env": "^6.4.0"
+  },
+  "directories": {
+    "lib": "lib",
+    "test": "__tests__"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/teamhola/holakit.git"
+  },
+  "bugs": {
+    "url": "https://github.com/teamhola/holakit/issues"
+  }
+}

@@ -1,0 +1,8 @@
+:host {
+  display: block;
+  position: relative;
+  width: 90%;
+  max-width: 1220px;
+  margin: 0 auto;
+  box-sizing: border-box;
+}

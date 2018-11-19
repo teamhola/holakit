@@ -1,0 +1,18 @@
+:host([tiny]) {
+  display: inline-block;
+  padding: 0.7rem;
+  width: 13rem;
+  @media (max-width: 700px) {
+    width: 8rem;
+  }
+}
+
+:host([tiny])::slotted(.title) {
+  margin-bottom: 0.5rem;
+  white-space: normal;
+}
+
+:host([tiny][with-image])::slotted(img:first-child) {
+  margin: -0.7rem -0.7rem 1.2rem -0.7rem;
+  width: calc(100% + 1.4rem);
+}
