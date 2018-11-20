@@ -1,0 +1,15 @@
+:host {
+  display: block;
+  margin-top: 3rem;
+  padding: 5rem 0;
+  background: #444;
+  color: var(--hola-text-light-color);
+  @media (max-width: 700px) {
+    margin-top: 1.8rem;
+    padding: 3rem 0;
+  }
+}
+
+::slotted(*) {
+  opacity: 0.8;
+}

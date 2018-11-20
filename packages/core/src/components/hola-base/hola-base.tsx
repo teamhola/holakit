@@ -4,7 +4,8 @@ import { Component } from '@stencil/core';
   tag: 'hola-base',
   styleUrls: [
     'normalize.css',
-    'hola-base.css'
+    'hola-base.css',
+    'hola-base-other-component.css'
   ]
 })
 export class HolaBase {
