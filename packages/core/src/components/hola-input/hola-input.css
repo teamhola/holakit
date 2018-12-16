@@ -1,0 +1,16 @@
+.native-input {
+  background: #fff;
+  border-radius: 0;
+  border: 1px solid #ccc;
+  font-size: 1em;
+  line-height: 1.5;
+  transition: 0.5s;
+  padding: 0.44em 0.7em;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  appearance: none;
+}
+
+.native-input:focus {
+  box-shadow: 0 0 0 3px var(--hola-focus-color);
+}

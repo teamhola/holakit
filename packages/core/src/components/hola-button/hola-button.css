@@ -18,6 +18,9 @@
 .button:active {
   box-shadow: 0 0 0 1.5em rgba(255, 255, 255, 0.5) inset;
 }
+.button:focus {
+  box-shadow: 0 0 0 3px var(--hola-focus-color);
+}
 
 :host([normal]) > .button {
   background: #eee;

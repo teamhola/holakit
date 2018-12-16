@@ -51,14 +51,6 @@ Card lists are designed for displaying a list of items. It looks like one card w
 <!-- Auto Generated Below -->
 
 
-## CSS Custom Properties
-
-| Name                  | Description                                                                    |
-| --------------------- | ------------------------------------------------------------------------------ |
-| `--hola-card-gap`     | Specify the gap between cards. It's shared across both vertical and horizonal. |
-| `--hola-card-padding` | Specify the padding of cards. Currently it only affects normal size cards.     |
-
-
 ----------------------------------------------
 
 *Built with [StencilJS](https://stenciljs.com/)*

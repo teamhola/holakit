@@ -50,4 +50,8 @@ Because it's kind of too complex, we decided not to combine these two classes in
 * More than one card in a vertical scene both on mobile & desktop (e.g. in sidebar): Use `<hola-card-stack>`.
 * Various card want to be distributed to multi columns one desktop to make use of horizonal available space: Use `<hola-columns>` directly.
 
-Notice: if you want a card flow, please don't `<hola-columns>` since it distributes cards vertical-first.
+Notice: if you want a card flow, please don't use `<hola-columns>` since it distributes cards vertical-first.
+
+### `.hola-form-ctrl`
+
+For now we just implemented single-line text inputs as `<hola-input>`. Other form controls are not yet ready.
