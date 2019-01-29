@@ -2,7 +2,7 @@
 
 Buttons
 
-Buttons are one of the most used components. It's the very basic way that users can 
+Buttons are one of the most used components. It's the very basic way that users can
 interact with an application. Currently HolaKit provides 3 kinds of button: Normal
 buttons, primary buttons and Ghost buttons.
 
@@ -31,6 +31,7 @@ Styleguide Components - Buttons
   border: none;
   outline: none;
   -webkit-appearance: none;
+  background: transparent;
   box-shadow: 0 0 0 0 #fff inset;
   cursor: pointer;
   transition: 0.3s box-shadow ease;
