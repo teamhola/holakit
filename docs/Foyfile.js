@@ -1,6 +1,8 @@
 const { task, fs } = require('foy')
 const glob = require('glob')
 
+if (process.env.NETLIFY_BUILD_BASE) setGlobalOptions({ loading: false })
+
 task('collect', async ctx => {
   const sidebar = {}
   const sidebarCfg = []
