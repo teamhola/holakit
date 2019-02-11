@@ -1,0 +1,2 @@
+This is a fake lockfile to ensure we can get yarn on Netlify builds.
+We only use yarn in docs. Other packages in `packages/` and this lerna repo uses npm.
