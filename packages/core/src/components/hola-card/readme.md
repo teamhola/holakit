@@ -6,8 +6,7 @@ Cards can't be too narrow too; Because we have great padding around cards, if yo
 
 Of course titles are accepted in cards and you will use them frequently. We also get head images for cards, and even pure image cards. Go ahead and make your app vivid.
 
-We have patched cards for being used in links; Feel free to use them as
-clickable items, but don't use them as buttons. For example, you can use linked cards as article items in a list page of blog, but don't use a card titled "Click Here" as an action button. Card always contains some actual data, instead of pure commands / verbs.
+We have patched cards for being used in links; Feel free to use them as clickable items, but don't use them as buttons. For example, you can use linked cards as article items in a list page of blog, but don't use a card titled "Click Here" as an action button. Card always contains some actual data, instead of pure commands / verbs.
 
 ## Special
 
@@ -18,6 +17,10 @@ We also have tiny cards design. Tiny cards are designed to be an `inline-block` 
 ### Card Lists
 
 Card lists are designed for displaying a list of items. It looks like one card with a small divider between every item. It's widely used in mobile designs as a group of menus, just like the Settings app on phones. Adding an icon or including a tagline for the item is welcome, but don't put too much things there in an item. For a rich list you may want it be a list of cards, which can be addressed using our Card Stack or Columns.
+
+### Ghost Cards
+
+In some situations, you do need content out of cards to be aligned with contents in cards. A title for a card stack, a hero block which has cards below, or a top navigation bar in a view with a list of cards. We invented "ghost" cards for that kind of usage. Ghost cards are basically cards without background and shadows(it inherits background actually). This would be the only solution to introduce a perfect align with card contents. Use `<hola-card ghost>` for a ghost card, and `<hola-card ghost-compact>` for a "compact" ghost card, with no padding on top and bottom.
 
 ## Markups
 
@@ -49,6 +52,14 @@ Card lists are designed for displaying a list of items. It looks like one card w
 ```
 
 <!-- Auto Generated Below -->
+
+
+## CSS Custom Properties
+
+| Name                  | Description                                                                    |
+| --------------------- | ------------------------------------------------------------------------------ |
+| `--hola-card-gap`     | Specify the gap between cards. It's shared across both vertical and horizonal. |
+| `--hola-card-padding` | Specify the padding of cards. Currently it only affects normal size cards.     |
 
 
 ----------------------------------------------
