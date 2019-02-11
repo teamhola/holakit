@@ -2,7 +2,10 @@
   "name": "root",
   "private": true,
   "scripts": {
-    "build-docs": "cd docs && yarn build"
+    "postinstall": "lerna bootstrap && cd docs && yarn",
+    "build": "lerna run build",
+    "build-docs": "cd docs && yarn build",
+    "build-all": "npm run build && npm run build-docs"
   },
   "devDependencies": {
     "lerna": "^3.4.3"
