@@ -1,5 +1,7 @@
 # HolaKit
 
+> **NOTICE:** This branch `master` contains code of Holakit 0.x, which is considered stable but will not add new features. New features and components are under development on branch [`next`](https://github.com/teamhola/holakit/tree/next) (PR #10) as Holakit 2.x.
+
 [![code style: prettier](https://img.shields.io/badge/code_style-prettier-ff69b4.svg?style=flat-square)](https://github.com/prettier/prettier)
 
 Yet another design-driven UI component set.
