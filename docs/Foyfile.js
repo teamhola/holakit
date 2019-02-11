@@ -1,4 +1,4 @@
-const { task, fs } = require('foy')
+const { task, fs, setGlobalOptions } = require('foy')
 const glob = require('glob')
 
 if (process.env.NETLIFY_BUILD_BASE) setGlobalOptions({ loading: false })
