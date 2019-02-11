@@ -1,3 +1,7 @@
+---
+sidebarDepth: 3
+---
+
 # Migrating from 0.x
 
 In 0.x versions of Holakit, we used a lot of CSS classes and its combinations to achieve various components. Version 2.x now is built completely in *WebComponents*, which makes using Holakit components effortless in all kinds of projects, needless to memory CSS classes and its usage. However, Holakit's major goals and missions didn't change in this transition. We still wants simplicity and painless framework-agnostic design and development process.

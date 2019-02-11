@@ -1,0 +1,4 @@
+componentSidebar.js
+components/*/
+.vuepress/dist
+node_modules
