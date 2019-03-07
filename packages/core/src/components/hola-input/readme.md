@@ -57,10 +57,3 @@ Sets focus on the specified `hola-input`. Use this method instead of the global
 #### Returns
 
 Type: `void`
-
-
-
-
-----------------------------------------------
-
-*Built with [StencilJS](https://stenciljs.com/)*

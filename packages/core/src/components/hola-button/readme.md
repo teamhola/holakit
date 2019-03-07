@@ -26,8 +26,3 @@ In some cases you can also use `<hola-button href="xxx">`, for links in a row wi
 | `href`   | `href`    | When you need this to be a link, specify this as a url.  | `string`  |
 | `submit` | `submit`  | Add this if you want this acts like a form submit.       | `boolean` |
 | `type`   | `type`    | The type of button when this element acts as `<button>`. | `string`  |
-
-
-----------------------------------------------
-
-*Built with [StencilJS](https://stenciljs.com/)*

@@ -61,7 +61,3 @@ In some situations, you do need content out of cards to be aligned with contents
 | `--hola-card-gap`     | Specify the gap between cards. It's shared across both vertical and horizonal. |
 | `--hola-card-padding` | Specify the padding of cards. Currently it only affects normal size cards.     |
 
-
-----------------------------------------------
-
-*Built with [StencilJS](https://stenciljs.com/)*
