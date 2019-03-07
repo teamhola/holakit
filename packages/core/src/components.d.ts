@@ -286,6 +286,9 @@ export namespace Components {
     */
     'value'?: string | null;
   }
+
+  interface HolaVmenu {}
+  interface HolaVmenuAttributes extends StencilHTMLAttributes {}
 }
 
 declare global {
@@ -298,6 +301,7 @@ declare global {
     'HolaContainer': Components.HolaContainer;
     'HolaFooter': Components.HolaFooter;
     'HolaInput': Components.HolaInput;
+    'HolaVmenu': Components.HolaVmenu;
   }
 
   interface StencilIntrinsicElements {
@@ -309,6 +313,7 @@ declare global {
     'hola-container': Components.HolaContainerAttributes;
     'hola-footer': Components.HolaFooterAttributes;
     'hola-input': Components.HolaInputAttributes;
+    'hola-vmenu': Components.HolaVmenuAttributes;
   }
 
 
@@ -360,6 +365,12 @@ declare global {
     new (): HTMLHolaInputElement;
   };
 
+  interface HTMLHolaVmenuElement extends Components.HolaVmenu, HTMLStencilElement {}
+  var HTMLHolaVmenuElement: {
+    prototype: HTMLHolaVmenuElement;
+    new (): HTMLHolaVmenuElement;
+  };
+
   interface HTMLElementTagNameMap {
     'hola-badge': HTMLHolaBadgeElement
     'hola-base': HTMLHolaBaseElement
@@ -369,6 +380,7 @@ declare global {
     'hola-container': HTMLHolaContainerElement
     'hola-footer': HTMLHolaFooterElement
     'hola-input': HTMLHolaInputElement
+    'hola-vmenu': HTMLHolaVmenuElement
   }
 
   interface ElementTagNameMap {
@@ -380,6 +392,7 @@ declare global {
     'hola-container': HTMLHolaContainerElement;
     'hola-footer': HTMLHolaFooterElement;
     'hola-input': HTMLHolaInputElement;
+    'hola-vmenu': HTMLHolaVmenuElement;
   }
 
 

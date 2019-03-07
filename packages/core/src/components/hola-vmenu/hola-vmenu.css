@@ -1,0 +1,36 @@
+:host {
+  list-style: none;
+}
+
+::slotted(.item) {
+  border-bottom: 1px solid #ccc;
+  display: block;
+  line-height: 3em;
+  overflow: hidden;
+  padding: 0 1em;
+  text-decoration: none;
+  text-overflow: ellipsis;
+  transition: all .3s ease;
+  white-space: nowrap;
+}
+
+::slotted(.item:active, .item:focus, .item:hover) {
+  box-shadow: -5px 0 0 var(--hola-primary-color) inset;
+}
+
+::slotted(.item.active) {
+  background: var(--hola-primary-color);
+  color: var(--hola-text-light-color);
+}
+
+::slotted(.item:last-child) {
+  border-bottom: 0;
+}
+
+:host-context(hola-card) {
+  margin: 0 calc(0rem - var(--hola-card-padding));
+}
+
+:host-context(hola-card) ::slotted(.item) {
+  padding: 0 var(--hola-card-padding);
+}
