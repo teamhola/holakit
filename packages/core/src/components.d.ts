@@ -15,6 +15,9 @@ import {
 
 export namespace Components {
 
+  interface HolaBadge {}
+  interface HolaBadgeAttributes extends StencilHTMLAttributes {}
+
   interface HolaBase {}
   interface HolaBaseAttributes extends StencilHTMLAttributes {}
 
@@ -287,6 +290,7 @@ export namespace Components {
 
 declare global {
   interface StencilElementInterfaces {
+    'HolaBadge': Components.HolaBadge;
     'HolaBase': Components.HolaBase;
     'HolaButton': Components.HolaButton;
     'HolaCard': Components.HolaCard;
@@ -297,6 +301,7 @@ declare global {
   }
 
   interface StencilIntrinsicElements {
+    'hola-badge': Components.HolaBadgeAttributes;
     'hola-base': Components.HolaBaseAttributes;
     'hola-button': Components.HolaButtonAttributes;
     'hola-card': Components.HolaCardAttributes;
@@ -306,6 +311,12 @@ declare global {
     'hola-input': Components.HolaInputAttributes;
   }
 
+
+  interface HTMLHolaBadgeElement extends Components.HolaBadge, HTMLStencilElement {}
+  var HTMLHolaBadgeElement: {
+    prototype: HTMLHolaBadgeElement;
+    new (): HTMLHolaBadgeElement;
+  };
 
   interface HTMLHolaBaseElement extends Components.HolaBase, HTMLStencilElement {}
   var HTMLHolaBaseElement: {
@@ -350,6 +361,7 @@ declare global {
   };
 
   interface HTMLElementTagNameMap {
+    'hola-badge': HTMLHolaBadgeElement
     'hola-base': HTMLHolaBaseElement
     'hola-button': HTMLHolaButtonElement
     'hola-card': HTMLHolaCardElement
@@ -360,6 +372,7 @@ declare global {
   }
 
   interface ElementTagNameMap {
+    'hola-badge': HTMLHolaBadgeElement;
     'hola-base': HTMLHolaBaseElement;
     'hola-button': HTMLHolaButtonElement;
     'hola-card': HTMLHolaCardElement;
