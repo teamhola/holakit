@@ -6,21 +6,21 @@
   font-weight: 700;
   line-height: 1;
   margin: 0 5px;
-  padding: 6px
+  padding: 6px;
 }
 
 :host([radii]) {
   border-radius: 999em;
-  padding: 6px 12px
+  padding: 6px 12px;
 }
 
 :host([light]), :host-context(hola-vmenu .item .active) {
   background: rgba(255, 255, 255, .97);
-  font-weight: 400
+  font-weight: 400;
 }
 
 @media (max-width: 700px) {
   :host {
-    font-size:.9rem
+    font-size:.9rem;
   }
 }
