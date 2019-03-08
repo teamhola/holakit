@@ -1,6 +1,6 @@
 {
   "name": "@holakit/core",
-  "version": "2.0.0-alpha.0",
+  "version": "2.0.0-prealpha.0",
   "description": "Core set of components in Holakit.",
   "keywords": [
     "holakit",
