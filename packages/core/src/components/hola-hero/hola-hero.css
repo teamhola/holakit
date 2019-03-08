@@ -1,0 +1,21 @@
+:host {
+  background-color: var(--hola-primary-color);
+  font-size: 1.5em;
+  margin-bottom: -10rem;
+  min-height: 45vh;
+  padding: 15vh 0 calc(15vh + 10rem);
+  color: var(--hola-text-light-color);
+}
+
+:host([light-bg]) {
+  color: var(--hola-text-dark-color)
+}
+
+@media (max-width: 700px) {
+  :host {
+    min-height:25vh;
+    font-size: 1.3em;
+    margin-bottom: -4rem;
+    padding: 3vh 0 calc(3vh + 4rem);
+  }
+}

@@ -59,3 +59,14 @@ Notice: if you want a card flow, please don't use `<hola-columns>` since it dist
 ### `.hola-form-ctrl`
 
 For now we just implemented single-line text inputs as `<hola-input>`. Other form controls are not yet ready.
+
+### `.hola-hero`
+
+Hero has been greatly simplified. We deprecated many use cases:
+
+* Height extending is the only behavior. No need to specify.
+* Navbar integration has been dropped; We are rethinking how navbars should work and look like.
+* `dark-bg` is the default behavior. Specify prop `light-bg` in need.
+* Hero in cards is no longer acceptable.
+
+And just remember we have built container in hero.

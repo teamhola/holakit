@@ -62,6 +62,9 @@ export namespace Components {
   interface HolaFooter {}
   interface HolaFooterAttributes extends StencilHTMLAttributes {}
 
+  interface HolaHero {}
+  interface HolaHeroAttributes extends StencilHTMLAttributes {}
+
   interface HolaInput {
     /**
     * If the value of the type attribute is `"file"`, then this attribute will indicate the types of files that the server accepts, otherwise it will be ignored. The value must be a comma-separated list of unique content type specifiers.
@@ -300,6 +303,7 @@ declare global {
     'HolaColumns': Components.HolaColumns;
     'HolaContainer': Components.HolaContainer;
     'HolaFooter': Components.HolaFooter;
+    'HolaHero': Components.HolaHero;
     'HolaInput': Components.HolaInput;
     'HolaVmenu': Components.HolaVmenu;
   }
@@ -312,6 +316,7 @@ declare global {
     'hola-columns': Components.HolaColumnsAttributes;
     'hola-container': Components.HolaContainerAttributes;
     'hola-footer': Components.HolaFooterAttributes;
+    'hola-hero': Components.HolaHeroAttributes;
     'hola-input': Components.HolaInputAttributes;
     'hola-vmenu': Components.HolaVmenuAttributes;
   }
@@ -359,6 +364,12 @@ declare global {
     new (): HTMLHolaFooterElement;
   };
 
+  interface HTMLHolaHeroElement extends Components.HolaHero, HTMLStencilElement {}
+  var HTMLHolaHeroElement: {
+    prototype: HTMLHolaHeroElement;
+    new (): HTMLHolaHeroElement;
+  };
+
   interface HTMLHolaInputElement extends Components.HolaInput, HTMLStencilElement {}
   var HTMLHolaInputElement: {
     prototype: HTMLHolaInputElement;
@@ -379,6 +390,7 @@ declare global {
     'hola-columns': HTMLHolaColumnsElement
     'hola-container': HTMLHolaContainerElement
     'hola-footer': HTMLHolaFooterElement
+    'hola-hero': HTMLHolaHeroElement
     'hola-input': HTMLHolaInputElement
     'hola-vmenu': HTMLHolaVmenuElement
   }
@@ -391,6 +403,7 @@ declare global {
     'hola-columns': HTMLHolaColumnsElement;
     'hola-container': HTMLHolaContainerElement;
     'hola-footer': HTMLHolaFooterElement;
+    'hola-hero': HTMLHolaHeroElement;
     'hola-input': HTMLHolaInputElement;
     'hola-vmenu': HTMLHolaVmenuElement;
   }

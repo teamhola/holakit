@@ -33,17 +33,16 @@
 }
 
 :host([ghost]) > .button {
-  box-shadow: 0 0 0 .2em var(--hola-primary-color) inset;
+  box-shadow: 0 0 0 .2em var(--hola-text-light-color) inset;
   font-weight: bold;
-  color: var(--hola-primary-color);
+  color: var(--hola-text-light-color);
 }
-:host([ghost]:host-context(hola-hero[dark-bg])) > .button {
-  /* 
+:host([ghost]:host-context(hola-hero[light-bg])) > .button {
+  /*
    * For some reason this selector doesn't work on Safari. Due to the limited
    * functionality of Safari's DevTools, we will need further investigation on it.
    */
-  font-size: 1rem;
-  color: var(--hola-text-light-color);
-  box-shadow: 0 0 0 .2em var(--hola-text-light-color) inset;
+  color: var(--hola-primary-color);
+  box-shadow: 0 0 0 .2em var(--hola-primary-color) inset;
 }
 /* TODO: Hover/active effect for ghost buttons */
