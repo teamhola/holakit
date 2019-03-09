@@ -6,7 +6,7 @@ if (process.env.NETLIFY_BUILD_BASE) setGlobalOptions({ loading: false })
 task('collect', async ctx => {
   const sidebar = {}
   const sidebarCfg = []
-  const componentReadmes = glob.sync('../packages/@(core|app)/src/components/*/readme.md')
+  const componentReadmes = glob.sync('../packages/@(core|app|layouts)/src/components/*/readme.md')
 
   componentReadmes.forEach(async path => {
     const scope = path.match(/\/packages\/([a-z]+)\//)[1]

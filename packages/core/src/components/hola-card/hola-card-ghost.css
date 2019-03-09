@@ -1,10 +1,11 @@
 :host([ghost]) {
-  background: inherit;
+  background: transparent;
+  color: inherit;
   box-shadow: none;
 }
 
 :host([ghost-compact]) {
-  background: inherit;
+  background: transparent;
   box-shadow: none;
   color: inherit;
   padding-top: 0;
