@@ -1,5 +1,5 @@
 :host {
-  list-style: none;
+  display: block;
 }
 
 ::slotted(.item) {
