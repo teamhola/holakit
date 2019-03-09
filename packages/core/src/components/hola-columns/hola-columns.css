@@ -10,14 +10,12 @@
 :host([of-cards]) {
   position: relative;
   columns: 3 20rem;
-  column-gap: 0;
+  column-gap: var(--hola-card-gap);
   box-sizing: border-box;
-  margin: 0 calc(var(--hola-card-gap) / -2);
-  /* Due to some bugs in iOS Safari, column gap is simulated with paddings of column items.
-  Of course we need to apply a pair of negative margin on column itself to make it align. */
+  margin: calc(var(--hola-card-gap) / -2);
 }
 :host([of-cards]) ::slotted(.item) {
-  padding: calc(var(--hola-card-gap) / 2);
+  margin: calc(var(--hola-card-gap) / 2) 0;
   box-sizing: border-box;
 }
 
