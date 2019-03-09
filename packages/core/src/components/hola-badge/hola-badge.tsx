@@ -7,7 +7,7 @@ import { Component } from '@stencil/core';
   ],
   shadow: true
 })
-export class HolaCard {
+export class HolaBadge {
   render () {
     return <slot></slot>
   }

@@ -7,7 +7,7 @@ import { Component } from '@stencil/core';
   ],
   shadow: true
 })
-export class HolaCard {
+export class HolaVmenu {
   render () {
     return <slot></slot>
   }

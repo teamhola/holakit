@@ -5,7 +5,7 @@ import { Component } from '@stencil/core';
   styleUrl: 'hola-hero.css',
   shadow: true
 })
-export class HolaFooter {
+export class HolaCard {
   render () {
     return <hola-container>
       <slot></slot>

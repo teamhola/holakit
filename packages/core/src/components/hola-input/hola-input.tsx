@@ -10,7 +10,7 @@ import { Component, Element, Event, EventEmitter, Method, Prop, State, Watch } f
   styleUrl: 'hola-input.css',
   shadow: true
 })
-export class Input {
+export class HolaInput {
 
   private nativeInput?: HTMLInputElement;
   private didBlurAfterEdit = false;
