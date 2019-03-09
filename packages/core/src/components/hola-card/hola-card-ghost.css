@@ -6,6 +6,7 @@
 :host([ghost-compact]) {
   background: inherit;
   box-shadow: none;
+  color: inherit;
   padding-top: 0;
-  padding-botttom: 0;
+  padding-bottom: 0;
 }

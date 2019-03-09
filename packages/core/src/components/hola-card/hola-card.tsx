@@ -5,6 +5,7 @@ import { Component } from '@stencil/core';
   styleUrls: [
     'hola-card.css',
     'hola-card-tiny.css',
+    'hola-card-ghost.css',
     'hola-card-list.css'
   ],
   shadow: true
