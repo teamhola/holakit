@@ -14,3 +14,17 @@ Of course you can set a background image as the background. With a prop `light-b
 ```
 
 <!-- Auto Generated Below -->
+
+
+## CSS Custom Properties
+
+| Name                           | Description                                      |
+| ------------------------------ | ------------------------------------------------ |
+| `--hola-hero-extend-height`    | The amount of height the hero will extend after. |
+| `--hola-hero-min-height`       | Minimum height of content to keep.               |
+| `--hola-hero-vertical-padding` | Padding at top and bottom.                       |
+
+
+----------------------------------------------
+
+*Built with [StencilJS](https://stenciljs.com/)*

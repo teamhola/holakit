@@ -1,10 +1,26 @@
 :host {
+  /**
+   * @prop --hola-hero-extend-height: The amount of height the hero will extend after.
+   */
+  --hola-hero-extend-height: 10rem;
+
+  /**
+   * @prop --hola-hero-min-height: Minimum height of content to keep.
+   */
+  --hola-hero-min-height: 25vh;
+
+  /**
+   * @prop --hola-hero-vertical-padding: Padding at top and bottom.
+   */
+  --hola-hero-vertical-padding: 10vh;
+
+
   display: block;
   background-color: var(--hola-primary-color);
   font-size: 1.5em;
-  margin-bottom: -10rem;
-  min-height: 45vh;
-  padding: 15vh 0 calc(15vh + 10rem);
+  margin-bottom: calc(0 - var(--hola-hero-extend-height));
+  min-height: var(--hola-hero-min-height);
+  padding: var(--hola-hero-vertical-padding) 0 calc(var(--hola-hero-vertical-padding) + var(--hola-hero-extend-height));
   color: var(--hola-text-light-color);
 }
 
@@ -14,9 +30,9 @@
 
 @media (max-width: 700px) {
   :host {
-    min-height:25vh;
+    --hola-hero-extend-height: 4rem;
+    --hola-hero-min-height: 10vh;
+    --hola-hero-vertical-padding: 3vh;
     font-size: 1.3em;
-    margin-bottom: -4rem;
-    padding: 3vh 0 calc(3vh + 4rem);
   }
 }

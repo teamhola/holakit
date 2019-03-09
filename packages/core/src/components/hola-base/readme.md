@@ -21,3 +21,8 @@ The variables showed on this page are global variables that is used by more than
 | `--hola-primary-color`    | Primary color applied throughout the whole component set.                                                                                                                                         |
 | `--hola-text-dark-color`  | Dark color for text. Like the light one.                                                                                                                                                          |
 | `--hola-text-light-color` | Light color for text. Usually you don't change this.                                                                                                                                              |
+
+
+----------------------------------------------
+
+*Built with [StencilJS](https://stenciljs.com/)*

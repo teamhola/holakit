@@ -21,3 +21,8 @@ Inbox <hola-badge radii>42</hola-badge>
 ```
 
 <!-- Auto Generated Below -->
+
+
+----------------------------------------------
+
+*Built with [StencilJS](https://stenciljs.com/)*

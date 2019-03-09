@@ -18,3 +18,8 @@ It's designed to be used in a card. You can use it out of cards if you need to i
 ```
 
 <!-- Auto Generated Below -->
+
+
+----------------------------------------------
+
+*Built with [StencilJS](https://stenciljs.com/)*

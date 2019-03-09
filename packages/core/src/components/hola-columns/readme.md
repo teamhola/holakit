@@ -26,3 +26,8 @@ For some common design patterns, add `ruled` to enable rules between columns. Th
 ```
 
 <!-- Auto Generated Below -->
+
+
+----------------------------------------------
+
+*Built with [StencilJS](https://stenciljs.com/)*
