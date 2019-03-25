@@ -6,7 +6,7 @@ import { Component } from '@stencil/core';
     'hola-assets-cdn.css'
   ]
 })
-export class HolaBase {
+export class HolaAssetsCdn {
   render () {
     return
   }

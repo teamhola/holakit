@@ -15,6 +15,12 @@ import {
 
 export namespace Components {
 
+  interface HolaAssetsCdn {}
+  interface HolaAssetsCdnAttributes extends StencilHTMLAttributes {}
+
+  interface HolaAssetsLocal {}
+  interface HolaAssetsLocalAttributes extends StencilHTMLAttributes {}
+
   interface HolaBadge {}
   interface HolaBadgeAttributes extends StencilHTMLAttributes {}
 
@@ -296,6 +302,8 @@ export namespace Components {
 
 declare global {
   interface StencilElementInterfaces {
+    'HolaAssetsCdn': Components.HolaAssetsCdn;
+    'HolaAssetsLocal': Components.HolaAssetsLocal;
     'HolaBadge': Components.HolaBadge;
     'HolaBase': Components.HolaBase;
     'HolaButton': Components.HolaButton;
@@ -309,6 +317,8 @@ declare global {
   }
 
   interface StencilIntrinsicElements {
+    'hola-assets-cdn': Components.HolaAssetsCdnAttributes;
+    'hola-assets-local': Components.HolaAssetsLocalAttributes;
     'hola-badge': Components.HolaBadgeAttributes;
     'hola-base': Components.HolaBaseAttributes;
     'hola-button': Components.HolaButtonAttributes;
@@ -321,6 +331,18 @@ declare global {
     'hola-vmenu': Components.HolaVmenuAttributes;
   }
 
+
+  interface HTMLHolaAssetsCdnElement extends Components.HolaAssetsCdn, HTMLStencilElement {}
+  var HTMLHolaAssetsCdnElement: {
+    prototype: HTMLHolaAssetsCdnElement;
+    new (): HTMLHolaAssetsCdnElement;
+  };
+
+  interface HTMLHolaAssetsLocalElement extends Components.HolaAssetsLocal, HTMLStencilElement {}
+  var HTMLHolaAssetsLocalElement: {
+    prototype: HTMLHolaAssetsLocalElement;
+    new (): HTMLHolaAssetsLocalElement;
+  };
 
   interface HTMLHolaBadgeElement extends Components.HolaBadge, HTMLStencilElement {}
   var HTMLHolaBadgeElement: {
@@ -383,6 +405,8 @@ declare global {
   };
 
   interface HTMLElementTagNameMap {
+    'hola-assets-cdn': HTMLHolaAssetsCdnElement
+    'hola-assets-local': HTMLHolaAssetsLocalElement
     'hola-badge': HTMLHolaBadgeElement
     'hola-base': HTMLHolaBaseElement
     'hola-button': HTMLHolaButtonElement
@@ -396,6 +420,8 @@ declare global {
   }
 
   interface ElementTagNameMap {
+    'hola-assets-cdn': HTMLHolaAssetsCdnElement;
+    'hola-assets-local': HTMLHolaAssetsLocalElement;
     'hola-badge': HTMLHolaBadgeElement;
     'hola-base': HTMLHolaBaseElement;
     'hola-button': HTMLHolaButtonElement;
