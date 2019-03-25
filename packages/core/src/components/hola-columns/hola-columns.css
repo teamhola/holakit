@@ -13,7 +13,7 @@
   columns: 3 20rem;
   column-gap: var(--hola-card-gap);
   box-sizing: border-box;
-  margin: calc(var(--hola-card-gap) / -2) 0;
+  margin: calc(var(--hola-card-gap) / 2) 0;
 }
 :host([of-cards]) ::slotted(.item) {
   margin: calc(var(--hola-card-gap) / 2) 0;
