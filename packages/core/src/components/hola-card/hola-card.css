@@ -11,9 +11,19 @@
    */
   --hola-card-gap: 2rem;
 
+  /**
+   * @prop --hola-card-background: Specify the background color of cards. Will be
+   *   black in dark mode.
+   */
+  --hola-card-background: #fff;
+
   @media (max-width: 700px) {
     --hola-card-padding: 1.6rem;
     --hola-card-gap: 2.5vw; /* (100vw - 95vw) / 2 */
+  }
+
+  @media (prefers-color-scheme: dark) {
+    --hola-card-background: #333;
   }
 }
 
@@ -21,7 +31,7 @@
   display: block;
   box-sizing: border-box;
   padding: var(--hola-card-padding);
-  background: #fff;
+  background: var(--hola-card-background);
   box-shadow: 0 0 25px rgba(0, 0, 0, 0.1);
   color: var(--hola-text-dark-color);
   background-size: cover;

@@ -13,7 +13,8 @@
 
   /**
    * @prop --hola-text-light-color: Light color for text. Usually you don't
-   *   change this.
+   *   change this. This will be inverted in dark mode, so your app will self
+   *   adapt.
    * @prop --hola-text-dark-color: Dark color for text. Like the light one.
    **/
   --hola-text-light-color: rgba(255, 255, 255, 0.97);
@@ -40,6 +41,16 @@
 
   @media (max-width: 700px) {
     --hola-element-gap: 1rem;
+  }
+}
+
+/* Dark Mode support */
+@media (prefers-color-scheme: dark) {
+  :root {
+    --hola-primary-color: #1d6fa5;
+    --hola-global-background-color: #000;
+    --hola-text-light-color: rgba(0, 0, 0, 0.8);
+    --hola-text-dark-color: rgba(255, 255, 255, 0.97);
   }
 }
 
