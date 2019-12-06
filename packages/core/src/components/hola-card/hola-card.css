@@ -23,7 +23,7 @@
   }
 
   @media (prefers-color-scheme: dark) {
-    --hola-card-background: #333;
+    --hola-card-background: #202020;
   }
 }
 
