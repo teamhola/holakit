@@ -7,6 +7,19 @@ Notice that `<hola-container>` shouldn't be put around `<hola-hero>`, `<hola-nav
 <!-- Auto Generated Below -->
 
 
+## Dependencies
+
+### Used by
+
+ - [hola-hero](../hola-hero)
+
+### Graph
+```mermaid
+graph TD;
+  hola-hero --> hola-container
+  style hola-container fill:#f9f,stroke:#333,stroke-width:4px
+```
+
 ----------------------------------------------
 
 *Built with [StencilJS](https://stenciljs.com/)*

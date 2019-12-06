@@ -25,6 +25,19 @@ Of course you can set a background image as the background. With a prop `light-b
 | `--hola-hero-vertical-padding` | Padding at top and bottom.                       |
 
 
+## Dependencies
+
+### Depends on
+
+- [hola-container](../hola-container)
+
+### Graph
+```mermaid
+graph TD;
+  hola-hero --> hola-container
+  style hola-hero fill:#f9f,stroke:#333,stroke-width:4px
+```
+
 ----------------------------------------------
 
 *Built with [StencilJS](https://stenciljs.com/)*

@@ -13,14 +13,15 @@ The variables showed on this page are global variables that is used by more than
 
 ## CSS Custom Properties
 
-| Name                      | Description                                                                                                                                                                                       |
-| ------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
-| `--hola-backdrop-color`   | Color of backdrop for overlays, like the navigation on mobile.                                                                                                                                    |
-| `--hola-elment-gap`       | The gap used between block elements in a vertical flow of components. Notice that this setting doesn't affect paragraph gaps, only component gaps, like the gap between an image and a paragraph. |
-| `--hola-focus-color`      | Color used in focus glows around inputs and other controls.                                                                                                                                       |
-| `--hola-primary-color`    | Primary color applied throughout the whole component set.                                                                                                                                         |
-| `--hola-text-dark-color`  | Dark color for text. Like the light one.                                                                                                                                                          |
-| `--hola-text-light-color` | Light color for text. Usually you don't change this.                                                                                                                                              |
+| Name                             | Description                                                                                                                                                                                       |
+| -------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| `--hola-backdrop-color`          | Color of backdrop for overlays, like the navigation on mobile.                                                                                                                                    |
+| `--hola-elment-gap`              | The gap used between block elements in a vertical flow of components. Notice that this setting doesn't affect paragraph gaps, only component gaps, like the gap between an image and a paragraph. |
+| `--hola-focus-color`             | Color used in focus glows around inputs and other controls.                                                                                                                                       |
+| `--hola-global-background-color` | Global background color applied to body.                                                                                                                                                          |
+| `--hola-primary-color`           | Primary color applied throughout the whole component set.                                                                                                                                         |
+| `--hola-text-dark-color`         | Dark color for text. Like the light one.                                                                                                                                                          |
+| `--hola-text-light-color`        | Light color for text. Usually you don't change this. This will be inverted in dark mode, so your app will self adapt.                                                                             |
 
 
 ----------------------------------------------
