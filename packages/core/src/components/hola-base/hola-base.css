@@ -47,7 +47,6 @@
 /* Dark Mode support */
 @media (prefers-color-scheme: dark) {
   :root {
-    --hola-primary-color: #1d6fa5;
     --hola-global-background-color: #000;
     --hola-text-light-color: rgba(0, 0, 0, 0.8);
     --hola-text-dark-color: rgba(255, 255, 255, 0.97);

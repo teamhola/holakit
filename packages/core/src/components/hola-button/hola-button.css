@@ -23,17 +23,20 @@
 }
 
 :host([normal]) > .button {
-  background: #eee;
+  background: #eeeeee30;
   color: var(--hola-text-dark-color);
 }
 
 :host([primary]) > .button {
   background: var(--hola-primary-color);
   color: var(--hola-text-light-color);
+  @media (prefers-color-scheme: dark) {
+    color: var(--hola-text-dark-color);
+  }
 }
 
 :host([ghost]) > .button {
-  box-shadow: 0 0 0 .2em var(--hola-text-light-color) inset;
+  box-shadow: 0 0 0 0.2em var(--hola-text-light-color) inset;
   font-weight: bold;
   color: var(--hola-text-light-color);
 }
@@ -43,6 +46,6 @@
    * functionality of Safari's DevTools, we will need further investigation on it.
    */
   color: var(--hola-primary-color);
-  box-shadow: 0 0 0 .2em var(--hola-primary-color) inset;
+  box-shadow: 0 0 0 0.2em var(--hola-primary-color) inset;
 }
 /* TODO: Hover/active effect for ghost buttons */
