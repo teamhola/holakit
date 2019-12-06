@@ -6,6 +6,12 @@
   --hola-primary-color: #3498db;
 
   /**
+   * @prop --hola-global-background-color: Global background color applied
+   *   to body.
+   **/
+  --hola-global-background-color: #eee;
+
+  /**
    * @prop --hola-text-light-color: Light color for text. Usually you don't
    *   change this.
    * @prop --hola-text-dark-color: Dark color for text. Like the light one.
@@ -39,8 +45,8 @@
 
 body {
   color: var(--hola-text-dark-color);
-  background: #eee;
-  font-family: Montserrat, "Helvetica Neue", Helvetica, Arial, "Lantinghei SC",
+  background: var(--hola-global-background-color);
+  font-family: Montserrat, 'Helvetica Neue', Helvetica, Arial, 'Lantinghei SC',
     sans-serif;
   @media (max-width: 700px) {
     font-size: 0.9rem;
