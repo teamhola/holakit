@@ -1,4 +1,4 @@
-import { Component } from '@stencil/core';
+import { Component, h } from '@stencil/core'
 
 @Component({
   tag: 'hola-card',
@@ -11,7 +11,7 @@ import { Component } from '@stencil/core';
   shadow: true
 })
 export class HolaCard {
-  render () {
+  render() {
     return <slot></slot>
   }
 }

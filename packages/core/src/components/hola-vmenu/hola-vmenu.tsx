@@ -1,14 +1,12 @@
-import { Component } from '@stencil/core';
+import { Component, h } from '@stencil/core'
 
 @Component({
   tag: 'hola-vmenu',
-  styleUrls: [
-    'hola-vmenu.css'
-  ],
+  styleUrls: ['hola-vmenu.css'],
   shadow: true
 })
 export class HolaVmenu {
-  render () {
+  render() {
     return <slot></slot>
   }
 }

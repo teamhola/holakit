@@ -13,10 +13,13 @@
   "author": "laosb <laosb@lasteam.net>",
   "homepage": "http://teamhola.github.io/holakit",
   "license": "MIT",
-  "module": "dist/esm/index.js",
+  "module": "dist/index.mjs",
   "main": "dist/index.js",
   "types": "dist/types/components.d.ts",
   "collection": "dist/collection/collection-manifest.json",
+  "es2015": "dist/esm/index.mjs",
+  "es2017": "dist/esm/index.mjs",
+  "jsnext:main": "dist/esm/index.mjs",
   "files": [
     "dist/"
   ],
@@ -29,8 +32,8 @@
   },
   "dependencies": {},
   "devDependencies": {
-    "@stencil/core": "~0.15.1",
-    "@stencil/postcss": "^0.1.0",
+    "@stencil/core": "~1.8.1",
+    "@stencil/postcss": "^1.0.1",
     "postcss-preset-env": "^6.4.0"
   },
   "directories": {

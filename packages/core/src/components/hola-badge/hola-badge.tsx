@@ -1,14 +1,12 @@
-import { Component } from '@stencil/core';
+import { Component, h } from '@stencil/core'
 
 @Component({
   tag: 'hola-badge',
-  styleUrls: [
-    'hola-badge.css'
-  ],
+  styleUrls: ['hola-badge.css'],
   shadow: true
 })
 export class HolaBadge {
-  render () {
+  render() {
     return <slot></slot>
   }
 }
