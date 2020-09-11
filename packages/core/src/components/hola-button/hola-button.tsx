@@ -3,7 +3,7 @@ import { Component, Prop, Element, h } from '@stencil/core'
 @Component({
   tag: 'hola-button',
   styleUrl: 'hola-button.css',
-  shadow: true
+  shadow: true,
 })
 export class HolaButton {
   @Element() el: HTMLElement
@@ -26,6 +26,7 @@ export class HolaButton {
   private onClick(event: Event) {
     // To make form events work, this method is stole from
     // https://github.com/ionic-team/ionic/blob/0fec72255bb99611cfe67ea70152400ec7f8b762/core/src/components/button/button.tsx#L118-L139
+    if (!this.el) return
     const form = this.el.closest('form')
     if (form) {
       event.preventDefault()
